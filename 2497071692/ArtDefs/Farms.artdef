@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..ArtDefSet>
+	<m_Version>
+		<major>1</major>
+		<minor>0</minor>
+		<build>0</build>
+		<revision>0</revision>
+	</m_Version>
+	<m_TemplateName text="Farms"/>
+	<m_RootCollections>
+		<Element>
+			<m_CollectionName text="PlotSets"/>
+			<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+		</Element>
+		<Element>
+			<m_CollectionName text="Farms"/>
+			<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+			<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects..ArtDefReferenceValue">
+							<m_ElementName text="RiceCrops"/>
+							<m_RootCollectionName text="PlotSets"/>
+							<m_ArtDefPath text="Farms.artdef"/>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
+							<m_TemplateName text="Farms"/>
+							<m_ParamName text="CropPlots"/>
+						</Element>
+						<Element class="AssetObjects..ArtDefReferenceValue">
+							<m_ElementName text="AncientBuildings"/>
+							<m_RootCollectionName text="PlotSets"/>
+							<m_ArtDefPath text="Farms.artdef"/>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
+							<m_TemplateName text="Farms"/>
+							<m_ParamName text="BuildingPlots"/>
+						</Element>
+						<Element class="AssetObjects..ArtDefReferenceValue">
+							<m_ElementName text="DefaultTileSet"/>
+							<m_RootCollectionName text="TileSets"/>
+							<m_ArtDefPath text="Farms.artdef"/>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
+							<m_TemplateName text="Farms"/>
+							<m_ParamName text="TileSet"/>
+						</Element>
+						<Element class="AssetObjects..ArtDefReferenceValue">
+							<m_ElementName text=""/>
+							<m_RootCollectionName text="Resource"/>
+							<m_ArtDefPath text="Resources.artdef"/>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
+							<m_TemplateName text="Resources"/>
+							<m_ParamName text="Resource"/>
+						</Element>
+						<Element class="AssetObjects..ArtDefReferenceValue">
+							<m_ElementName text="ARTERA_ANCIENT"/>
+							<m_RootCollectionName text="ArtEra"/>
+							<m_ArtDefPath text="Eras.artdef"/>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
+							<m_TemplateName text="Eras"/>
+							<m_ParamName text="Era"/>
+						</Element>
+						<Element class="AssetObjects..ArtDefReferenceValue">
+							<m_ElementName text="IMPROVEMENT_JNR_WET_FARM"/>
+							<m_RootCollectionName text="Improvement"/>
+							<m_ArtDefPath text="Improvements.artdef"/>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
+							<m_TemplateName text="Improvements"/>
+							<m_ParamName text="Improvement"/>
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections/>
+				<m_Name text="LM_WET_FARM_AN"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects..ArtDefReferenceValue">
+							<m_ElementName text="RiceCrops"/>
+							<m_RootCollectionName text="PlotSets"/>
+							<m_ArtDefPath text="Farms.artdef"/>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
+							<m_TemplateName text="Farms"/>
+							<m_ParamName text="CropPlots"/>
+						</Element>
+						<Element class="AssetObjects..ArtDefReferenceValue">
+							<m_ElementName text="AncientBuildings"/>
+							<m_RootCollectionName text="PlotSets"/>
+							<m_ArtDefPath text="Farms.artdef"/>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
+							<m_TemplateName text="Farms"/>
+							<m_ParamName text="BuildingPlots"/>
+						</Element>
+						<Element class="AssetObjects..ArtDefReferenceValue">
+							<m_ElementName text="DefaultTileSet"/>
+							<m_RootCollectionName text="TileSets"/>
+							<m_ArtDefPath text="Farms.artdef"/>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
+							<m_TemplateName text="Farms"/>
+							<m_ParamName text="TileSet"/>
+						</Element>
+						<Element class="AssetObjects..ArtDefReferenceValue">
+							<m_ElementName text=""/>
+							<m_RootCollectionName text="Resource"/>
+							<m_ArtDefPath text="Resources.artdef"/>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
+							<m_TemplateName text="Resources"/>
+							<m_ParamName text="Resource"/>
+						</Element>
+						<Element class="AssetObjects..ArtDefReferenceValue">
+							<m_ElementName text="ARTERA_CLASSICAL"/>
+							<m_RootCollectionName text="ArtEra"/>
+							<m_ArtDefPath text="Eras.artdef"/>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
+							<m_TemplateName text="Eras"/>
+							<m_ParamName text="Era"/>
+						</Element>
+						<Element class="AssetObjects..ArtDefReferenceValue">
+							<m_ElementName text="IMPROVEMENT_JNR_WET_FARM"/>
+							<m_RootCollectionName text="Improvement"/>
+							<m_ArtDefPath text="Improvements.artdef"/>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
+							<m_TemplateName text="Improvements"/>
+							<m_ParamName text="Improvement"/>
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections/>
+				<m_Name text="LM_WET_FARM_CL"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects..ArtDefReferenceValue">
+							<m_ElementName text="RiceCrops"/>
+							<m_RootCollectionName text="PlotSets"/>
+							<m_ArtDefPath text="Farms.artdef"/>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
+							<m_TemplateName text="Farms"/>
+							<m_ParamName text="CropPlots"/>
+						</Element>
+						<Element class="AssetObjects..ArtDefReferenceValue">
+							<m_ElementName text="IndustrialBuildings"/>
+							<m_RootCollectionName text="PlotSets"/>
+							<m_ArtDefPath text="Farms.artdef"/>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
+							<m_TemplateName text="Farms"/>
+							<m_ParamName text="BuildingPlots"/>
+						</Element>
+						<Element class="AssetObjects..ArtDefReferenceValue">
+							<m_ElementName text="IndustrialTileSet"/>
+							<m_RootCollectionName text="TileSets"/>
+							<m_ArtDefPath text="Farms.artdef"/>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
+							<m_TemplateName text="Farms"/>
+							<m_ParamName text="TileSet"/>
+						</Element>
+						<Element class="AssetObjects..ArtDefReferenceValue">
+							<m_ElementName text=""/>
+							<m_RootCollectionName text="Resource"/>
+							<m_ArtDefPath text="Resources.artdef"/>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
+							<m_TemplateName text="Resources"/>
+							<m_ParamName text="Resource"/>
+						</Element>
+						<Element class="AssetObjects..ArtDefReferenceValue">
+							<m_ElementName text="ARTERA_INDUSTRIAL"/>
+							<m_RootCollectionName text="ArtEra"/>
+							<m_ArtDefPath text="Eras.artdef"/>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
+							<m_TemplateName text="Eras"/>
+							<m_ParamName text="Era"/>
+						</Element>
+						<Element class="AssetObjects..ArtDefReferenceValue">
+							<m_ElementName text="IMPROVEMENT_JNR_WET_FARM"/>
+							<m_RootCollectionName text="Improvement"/>
+							<m_ArtDefPath text="Improvements.artdef"/>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
+							<m_TemplateName text="Improvements"/>
+							<m_ParamName text="Improvement"/>
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections/>
+				<m_Name text="LM_WET_FARM_IND"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects..ArtDefReferenceValue">
+							<m_ElementName text="RiceCrops"/>
+							<m_RootCollectionName text="PlotSets"/>
+							<m_ArtDefPath text="Farms.artdef"/>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
+							<m_TemplateName text="Farms"/>
+							<m_ParamName text="CropPlots"/>
+						</Element>
+						<Element class="AssetObjects..ArtDefReferenceValue">
+							<m_ElementName text="ModernBuildings"/>
+							<m_RootCollectionName text="PlotSets"/>
+							<m_ArtDefPath text="Farms.artdef"/>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
+							<m_TemplateName text="Farms"/>
+							<m_ParamName text="BuildingPlots"/>
+						</Element>
+						<Element class="AssetObjects..ArtDefReferenceValue">
+							<m_ElementName text="ModernTileSet"/>
+							<m_RootCollectionName text="TileSets"/>
+							<m_ArtDefPath text="Farms.artdef"/>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
+							<m_TemplateName text="Farms"/>
+							<m_ParamName text="TileSet"/>
+						</Element>
+						<Element class="AssetObjects..ArtDefReferenceValue">
+							<m_ElementName text=""/>
+							<m_RootCollectionName text="Resource"/>
+							<m_ArtDefPath text="Resources.artdef"/>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
+							<m_TemplateName text="Resources"/>
+							<m_ParamName text="Resource"/>
+						</Element>
+						<Element class="AssetObjects..ArtDefReferenceValue">
+							<m_ElementName text="ARTERA_MODERN"/>
+							<m_RootCollectionName text="ArtEra"/>
+							<m_ArtDefPath text="Eras.artdef"/>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
+							<m_TemplateName text="Eras"/>
+							<m_ParamName text="Era"/>
+						</Element>
+						<Element class="AssetObjects..ArtDefReferenceValue">
+							<m_ElementName text="IMPROVEMENT_JNR_WET_FARM"/>
+							<m_RootCollectionName text="Improvement"/>
+							<m_ArtDefPath text="Improvements.artdef"/>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
+							<m_TemplateName text="Improvements"/>
+							<m_ParamName text="Improvement"/>
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections/>
+				<m_Name text="LM_WET_FARM_MD"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+		</Element>
+		<Element>
+			<m_CollectionName text="TileSets"/>
+			<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+		</Element>
+		<Element>
+			<m_CollectionName text="Globals"/>
+			<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+			<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="MinHeight"/>
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>11.000000</m_fValue>
+							<m_ParamName text="MaxHeight"/>
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections/>
+				<m_Name text="Default"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+		</Element>
+	</m_RootCollections>
+</AssetObjects..ArtDefSet>
+

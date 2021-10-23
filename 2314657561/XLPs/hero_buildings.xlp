@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..XLP>
+	<m_Version>
+		<major>1</major>
+		<minor>0</minor>
+		<build>0</build>
+		<revision>0</revision>
+	</m_Version>
+	<m_ClassName text="TileBase"/>
+	<m_PackageName text="landmarks/hero_buildings"/>
+	<m_Entries>
+		<Element>
+			<m_EntryID text="DIS_THR_Theater"/>
+			<m_ObjectName text="DIS_THR_Theater"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_THR_Theater_Industrial"/>
+			<m_ObjectName text="DIS_THR_Theater_Industrial"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_THR_Media_Center"/>
+			<m_ObjectName text="DIS_THR_Media_Center"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_THR_MAR_Marae_Modern"/>
+			<m_ObjectName text="DIS_THR_MAR_Marae_Modern"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_THR_Grand_Hotel"/>
+			<m_ObjectName text="DIS_THR_Grand_Hotel"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_THR_Assembly_Modern"/>
+			<m_ObjectName text="DIS_THR_Assembly_Modern"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_THR_Assembly"/>
+			<m_ObjectName text="DIS_THR_Assembly"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_THR_Museum_Artifact"/>
+			<m_ObjectName text="DIS_THR_Museum_Artifact"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_THR_Museum_Art"/>
+			<m_ObjectName text="DIS_THR_Museum_Art"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_THR_Mansion"/>
+			<m_ObjectName text="DIS_THR_Mansion"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_THR_Cabinet"/>
+			<m_ObjectName text="DIS_THR_Cabinet"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_THR_Assembly_Greece"/>
+			<m_ObjectName text="DIS_THR_Assembly_Greece"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_THR_Assembly_Modern_Greece"/>
+			<m_ObjectName text="DIS_THR_Assembly_Modern_Greece"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_THR_Opera_Greece"/>
+			<m_ObjectName text="DIS_THR_Opera_Greece"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_THR_Theater_Greece"/>
+			<m_ObjectName text="DIS_THR_Theater_Greece"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_THR_Theater_Modern_Greece"/>
+			<m_ObjectName text="DIS_THR_Theater_Modern_Greece"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_THR_Grand_Hotel_Greece"/>
+			<m_ObjectName text="DIS_THR_Grand_Hotel_Greece"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_THR_Opera"/>
+			<m_ObjectName text="DIS_THR_Opera"/>
+		</Element>
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+		<Element>LINUX</Element>
+		<Element>MACOS</Element>
+		<Element>IOS</Element>
+	</m_AllowedPlatforms>
+</AssetObjects..XLP>
+

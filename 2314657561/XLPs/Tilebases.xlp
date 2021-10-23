@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..XLP>
+	<m_Version>
+		<major>1</major>
+		<minor>0</minor>
+		<build>0</build>
+		<revision>0</revision>
+	</m_Version>
+	<m_ClassName text="TileBase"/>
+	<m_PackageName text="landmarks/tilebases"/>
+	<m_Entries>
+		<Element>
+			<m_EntryID text="DIS_THR_TheaterRoof"/>
+			<m_ObjectName text="DIS_THR_TheaterRoof"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_THR_TheaterStage"/>
+			<m_ObjectName text="DIS_THR_TheaterStage"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_THR_TheaterStand"/>
+			<m_ObjectName text="DIS_THR_TheaterStand"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_THR_CabinetVases"/>
+			<m_ObjectName text="DIS_THR_CabinetVases"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_THR_CLA_Base02a"/>
+			<m_ObjectName text="DIS_THR_CLA_Base02a"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_THR_CLA_Base03a"/>
+			<m_ObjectName text="DIS_THR_CLA_Base03a"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_THR_IND_Base02a"/>
+			<m_ObjectName text="DIS_THR_IND_Base02a"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_THR_IND_Plaza"/>
+			<m_ObjectName text="DIS_THR_IND_Plaza"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_THR_TheaterBack"/>
+			<m_ObjectName text="DIS_THR_TheaterBack"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_THR_TheaterPortal"/>
+			<m_ObjectName text="DIS_THR_TheaterPortal"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_THR_IND_Base03a"/>
+			<m_ObjectName text="DIS_THR_IND_Base03a"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_THR_Standard_Double"/>
+			<m_ObjectName text="DIS_THR_Standard_Double"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_THR_IND_Base03b"/>
+			<m_ObjectName text="DIS_THR_IND_Base03b"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_THR_IND_Base04a"/>
+			<m_ObjectName text="DIS_THR_IND_Base04a"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_THR_IND_Base04b"/>
+			<m_ObjectName text="DIS_THR_IND_Base04b"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_THR_MOD_Plaza"/>
+			<m_ObjectName text="DIS_THR_MOD_Plaza"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_THR_MOD_Base02a"/>
+			<m_ObjectName text="DIS_THR_MOD_Base02a"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_THR_MOD_Base03a"/>
+			<m_ObjectName text="DIS_THR_MOD_Base03a"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_THR_MOD_Base03b"/>
+			<m_ObjectName text="DIS_THR_MOD_Base03b"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_THR_MOD_Base04a"/>
+			<m_ObjectName text="DIS_THR_MOD_Base04a"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_THR_MOD_Base04b"/>
+			<m_ObjectName text="DIS_THR_MOD_Base04b"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_THR_MOD_Base05a"/>
+			<m_ObjectName text="DIS_THR_MOD_Base05a"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_THR_Media_CenterBld"/>
+			<m_ObjectName text="DIS_THR_Media_CenterBld"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_THR_MOD_Base05b"/>
+			<m_ObjectName text="DIS_THR_MOD_Base05b"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_THR_LightPost"/>
+			<m_ObjectName text="DIS_THR_LightPost"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_THR_MAR_MaraeBld"/>
+			<m_ObjectName text="DIS_THR_MAR_MaraeBld"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_THR_MaraeStatue"/>
+			<m_ObjectName text="DIS_THR_MaraeStatue"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_THR_CLA_MAR_Base03a"/>
+			<m_ObjectName text="DIS_THR_CLA_MAR_Base03a"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_THR_IND_MAR_Base02a"/>
+			<m_ObjectName text="DIS_THR_IND_MAR_Base02a"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_THR_IND_MAR_Base03a"/>
+			<m_ObjectName text="DIS_THR_IND_MAR_Base03a"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_THR_IND_MAR_Base03b"/>
+			<m_ObjectName text="DIS_THR_IND_MAR_Base03b"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_THR_IND_MAR_Base04a"/>
+			<m_ObjectName text="DIS_THR_IND_MAR_Base04a"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_THR_IND_MAR_Base04b"/>
+			<m_ObjectName text="DIS_THR_IND_MAR_Base04b"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_THR_MOD_MAR_Base02a"/>
+			<m_ObjectName text="DIS_THR_MOD_MAR_Base02a"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_THR_MOD_MAR_Base03a"/>
+			<m_ObjectName text="DIS_THR_MOD_MAR_Base03a"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_THR_MOD_MAR_Base03b"/>
+			<m_ObjectName text="DIS_THR_MOD_MAR_Base03b"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_THR_MOD_MAR_Base04a"/>
+			<m_ObjectName text="DIS_THR_MOD_MAR_Base04a"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_THR_MOD_MAR_Base04b"/>
+			<m_ObjectName text="DIS_THR_MOD_MAR_Base04b"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_THR_MOD_MAR_Base05a"/>
+			<m_ObjectName text="DIS_THR_MOD_MAR_Base05a"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_THR_MOD_MAR_Base05b"/>
+			<m_ObjectName text="DIS_THR_MOD_MAR_Base05b"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_THR_Grand_Hotel_Tent"/>
+			<m_ObjectName text="DIS_THR_Grand_Hotel_Tent"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_THR_Grand_Hotel_Bld"/>
+			<m_ObjectName text="DIS_THR_Grand_Hotel_Bld"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_THR_AssemblyTower"/>
+			<m_ObjectName text="DIS_THR_AssemblyTower"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_THR_AssemblyRoof"/>
+			<m_ObjectName text="DIS_THR_AssemblyRoof"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_THR_AssemblyBld"/>
+			<m_ObjectName text="DIS_THR_AssemblyBld"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_THR_AssemblyStatue"/>
+			<m_ObjectName text="DIS_THR_AssemblyStatue"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_THR_AssemblySemiSquare"/>
+			<m_ObjectName text="DIS_THR_AssemblySemiSquare"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_THR_AssemblySemiCircle"/>
+			<m_ObjectName text="DIS_THR_AssemblySemiCircle"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_THR_AssemblyBrazier"/>
+			<m_ObjectName text="DIS_THR_AssemblyBrazier"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_THR_Museum_ArtifactAltar"/>
+			<m_ObjectName text="DIS_THR_Museum_ArtifactAltar"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_THR_Museum_ArtifactCircle"/>
+			<m_ObjectName text="DIS_THR_Museum_ArtifactCircle"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_THR_Museum_ArtifactHead"/>
+			<m_ObjectName text="DIS_THR_Museum_ArtifactHead"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_THR_Museum_ArtifactObelisk"/>
+			<m_ObjectName text="DIS_THR_Museum_ArtifactObelisk"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_THR_Museum_ArtifactPillar"/>
+			<m_ObjectName text="DIS_THR_Museum_ArtifactPillar"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_THR_Museum_ArtifactFeet"/>
+			<m_ObjectName text="DIS_THR_Museum_ArtifactFeet"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_THR_Museum_ArtStatue"/>
+			<m_ObjectName text="DIS_THR_Museum_ArtStatue"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_THR_Grand_Hotel_Statue"/>
+			<m_ObjectName text="DIS_THR_Grand_Hotel_Statue"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_THR_OperaRoof"/>
+			<m_ObjectName text="DIS_THR_OperaRoof"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_THR_OperaTop"/>
+			<m_ObjectName text="DIS_THR_OperaTop"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_THR_OperaTower"/>
+			<m_ObjectName text="DIS_THR_OperaTower"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_THR_OperaPortal"/>
+			<m_ObjectName text="DIS_THR_OperaPortal"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_THR_OperaWall"/>
+			<m_ObjectName text="DIS_THR_OperaWall"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_THR_OperaTable"/>
+			<m_ObjectName text="DIS_THR_OperaTable"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_THR_OperaUmbrella"/>
+			<m_ObjectName text="DIS_THR_OperaUmbrella"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_THR_CLA_Greece03a"/>
+			<m_ObjectName text="DIS_THR_CLA_Greece03a"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_THR_IND_Greece03a"/>
+			<m_ObjectName text="DIS_THR_IND_Greece03a"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_THR_MOD_Greece03a"/>
+			<m_ObjectName text="DIS_THR_MOD_Greece03a"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_THR_MOD_Greece05a"/>
+			<m_ObjectName text="DIS_THR_MOD_Greece05a"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_THR_TheaterBooth"/>
+			<m_ObjectName text="DIS_THR_TheaterBooth"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_THR_IND_Greece04a"/>
+			<m_ObjectName text="DIS_THR_IND_Greece04a"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_THR_MOD_Greece04a"/>
+			<m_ObjectName text="DIS_THR_MOD_Greece04a"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_THR_Round_Banner"/>
+			<m_ObjectName text="DIS_THR_Round_Banner"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_THR_IND_Greece04b"/>
+			<m_ObjectName text="DIS_THR_IND_Greece04b"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_THR_MOD_Greece04b"/>
+			<m_ObjectName text="DIS_THR_MOD_Greece04b"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_THR_MOD_Greece05b"/>
+			<m_ObjectName text="DIS_THR_MOD_Greece05b"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_THR_Grand_Hotel_Tower"/>
+			<m_ObjectName text="DIS_THR_Grand_Hotel_Tower"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_THR_Grand_Hotel_Center"/>
+			<m_ObjectName text="DIS_THR_Grand_Hotel_Center"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_THR_IND_Greece02a"/>
+			<m_ObjectName text="DIS_THR_IND_Greece02a"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_THR_MOD_Greece02a"/>
+			<m_ObjectName text="DIS_THR_MOD_Greece02a"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_THR_Classical_LgTrailer"/>
+			<m_ObjectName text="DIS_THR_Classical_LgTrailer"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_THR_Classical_SmTrailer"/>
+			<m_ObjectName text="DIS_THR_Classical_SmTrailer"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_THR_Media_Center_Fountain"/>
+			<m_ObjectName text="DIS_THR_Media_Center_Fountain"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_THR_CLA_DOJO_Base03a"/>
+			<m_ObjectName text="DIS_THR_CLA_DOJO_Base03a"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_THR_IND_DOJO_Base03a"/>
+			<m_ObjectName text="DIS_THR_IND_DOJO_Base03a"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_THR_IND_DOJO_Base04a"/>
+			<m_ObjectName text="DIS_THR_IND_DOJO_Base04a"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_THR_IND_DOJO_Base04b"/>
+			<m_ObjectName text="DIS_THR_IND_DOJO_Base04b"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_THR_MOD_DOJO_Base03a"/>
+			<m_ObjectName text="DIS_THR_MOD_DOJO_Base03a"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_THR_MOD_DOJO_Base04a"/>
+			<m_ObjectName text="DIS_THR_MOD_DOJO_Base04a"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_THR_MOD_DOJO_Base04b"/>
+			<m_ObjectName text="DIS_THR_MOD_DOJO_Base04b"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_THR_MOD_DOJO_Base05a"/>
+			<m_ObjectName text="DIS_THR_MOD_DOJO_Base05a"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_THR_MOD_DOJO_Base05b"/>
+			<m_ObjectName text="DIS_THR_MOD_DOJO_Base05b"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_THR_MOD_FILM_Base05a"/>
+			<m_ObjectName text="DIS_THR_MOD_FILM_Base05a"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_THR_MOD_FILM_Base05b"/>
+			<m_ObjectName text="DIS_THR_MOD_FILM_Base05b"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_THR_MOD_Plaza_Stars"/>
+			<m_ObjectName text="DIS_THR_MOD_Plaza_Stars"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_THR_CLA_RMED03a"/>
+			<m_ObjectName text="DIS_THR_CLA_RMED03a"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_THR_MOD_RMED02a"/>
+			<m_ObjectName text="DIS_THR_MOD_RMED02a"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_THR_MOD_RMED03a"/>
+			<m_ObjectName text="DIS_THR_MOD_RMED03a"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_THR_MOD_RMED05a"/>
+			<m_ObjectName text="DIS_THR_MOD_RMED05a"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_THR_MOD_RMED05b"/>
+			<m_ObjectName text="DIS_THR_MOD_RMED05b"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_THR_MOD_RMED04b"/>
+			<m_ObjectName text="DIS_THR_MOD_RMED04b"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_THR_MOD_RMED04a"/>
+			<m_ObjectName text="DIS_THR_MOD_RMED04a"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_THR_IND_RMED04b"/>
+			<m_ObjectName text="DIS_THR_IND_RMED04b"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_THR_IND_RMED04a"/>
+			<m_ObjectName text="DIS_THR_IND_RMED04a"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_THR_IND_RMED03a"/>
+			<m_ObjectName text="DIS_THR_IND_RMED03a"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_THR_IND_RMED02a"/>
+			<m_ObjectName text="DIS_THR_IND_RMED02a"/>
+		</Element>
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+		<Element>LINUX</Element>
+		<Element>MACOS</Element>
+		<Element>IOS</Element>
+	</m_AllowedPlatforms>
+</AssetObjects..XLP>
+

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<GameData>
+	<EnglishText>
+		<!-- Beliefs-->
+		<Row Tag="LOC_POK_BELIEF_NUN_NAME">
+			<Text>God of the Watery Abyss</Text>
+		</Row>
+		<Row Tag="LOC_POK_BELIEF_ATUM_NAME">
+			<Text>God of Creation</Text>
+		</Row>
+		<Row Tag="LOC_POK_BELIEF_AMON_NAME">
+			<Text>Lord of All Gods</Text>
+		</Row>
+		<Row Tag="LOC_POK_BELIEF_ISIS_NAME">
+			<Text>Goddess of Magic and Wisdom</Text>
+		</Row>
+		<Row Tag="LOC_POK_BELIEF_APEDEMAK_NAME">
+			<Text>Lord of Royal Power</Text>
+		</Row>
+		<Row Tag="LOC_POK_BELIEF_ANUBIS_NAME">
+			<Text>Lord of the Sacred Land</Text>
+		</Row>
+		<Row Tag="LOC_POK_BELIEF_HORUS_NAME">
+			<Text>Lord of the Horizons</Text>
+		</Row>
+		<Row Tag="LOC_POK_BELIEF_SEBIUMEKER_NAME">
+			<Text>Guardian God</Text>
+		</Row>
+		<Row Tag="LOC_POK_BELIEF_BES_NAME">
+			<Text>House God</Text>
+		</Row>
+		<Row Tag="LOC_POK_BELIEF_ASH_NAME">
+			<Text>God of the Fertile Oases</Text>
+		</Row>
+		<Row Tag="LOC_POK_BELIEF_NUN_DESCRIPTION">
+			<Text>Sea luxury resources provide +1 [ICON_Science] Science and +1 [ICON_Culture] Culture.</Text>
+		</Row>
+		<Row Tag="LOC_POK_BELIEF_ATUM_DESCRIPTION">
+			<Text>All Builders receive 1 extra charge.</Text>
+		</Row>
+		<Row Tag="LOC_POK_BELIEF_AMON_DESCRIPTION">
+			<Text>Palace yields are doubled. +1 [ICON_Amenities] Amenity and +1 [ICON_Housing] Housing in the Capital. Government Plaza buildings provide +1 [ICON_Science] Science, +1 [ICON_Culture] Culture, and +1 [ICON_Faith] Faith.</Text>
+		</Row>
+		<Row Tag="LOC_POK_BELIEF_ISIS_DESCRIPTION">
+			<Text>Holy Sites provide +1 [ICON_Science] Science and +1 [ICON_Culture] Culture.</Text>
+		</Row>
+		<Row Tag="LOC_POK_BELIEF_APEDEMAK_DESCRIPTION">
+			<Text>Combat victories provide [ICON_Science] Science equal to 50% of the [ICON_Strength] Combat Strength of the defeated unit.</Text>
+		</Row>
+		<Row Tag="LOC_POK_BELIEF_ANUBIS_DESCRIPTION">
+			<Text>+1 [ICON_Gold] Gold from tiles with Charming or better Appeal.</Text>
+		</Row>
+		<Row Tag="LOC_POK_BELIEF_HORUS_DESCRIPTION">
+			<Text>One extra Wildcard policy slot in any government.</Text>
+		</Row>
+		<Row Tag="LOC_POK_BELIEF_SEBIUMEKER_DESCRIPTION">
+			<Text>Cities with garrisons receive an additional +5% [ICON_Culture] Culture and 5% [ICON_Faith] Faith, and gain an additional [ICON_Ranged] Ranged Strike per turn.</Text>
+		</Row>
+		<Row Tag="LOC_POK_BELIEF_BES_DESCRIPTION">
+			<Text>Happy cities receive an additional +5% [ICON_Culture] Culture and +5% [ICON_Faith] Faith. Ecstatic cities double these amounts.</Text>
+		</Row>
+		<Row Tag="LOC_POK_BELIEF_ASH_DESCRIPTION">
+			<Text>+1 [ICON_Science] Science, +1 [ICON_Culture] Culture, +1 [ICON_Faith] Faith, +1 [ICON_Gold] Gold, +1 [ICON_Food] Food, and +1 [ICON_Production] Production from Oases and tiles adjacent to Oases.</Text>
+		</Row>
+	</EnglishText>
+</GameData>

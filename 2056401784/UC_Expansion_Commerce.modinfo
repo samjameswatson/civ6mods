@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="52c17bf1-d630-42c8-a2d6-f20d8e019993" version="1">
+  <Properties>
+    <Name>UC - District Expansion: Commerce</Name>
+    <Description>New commerce-focused building choices for Commercial Hub, Harbor, and Aerodrome.</Description>
+    <Created>1586502187</Created>
+    <Teaser>Commerce districts overhaul with new building choices.</Teaser>
+    <Authors>JNR</Authors>
+    <CompatibleVersions>2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+    <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
+  </Dependencies>
+  <InGameActions>
+    <UpdateDatabase id="GameplayBase">
+      <Properties>
+        <LoadOrder>220</LoadOrder>
+      </Properties>
+      <File>Data/UC_COM_Buildings.sql</File>
+      <File>Data/UC_COM_Districts.sql</File>
+      <File>Data/UC_COM_Requirements.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="GameplayAdvanced">
+      <Properties>
+        <LoadOrder>221</LoadOrder>
+      </Properties>
+      <File>Data/UC_COM_Bonuses_Yields.sql</File>
+      <File>Data/UC_COM_Bonuses_TradeRoutes.sql</File>
+      <File>Data/UC_COM_Bonuses_Special.sql</File>
+      <File>Data/UC_COM_City_States.sql</File>
+      <File>Data/UC_COM_Policies.sql</File>
+      <File>Data/UC_COM_Misc.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="Text">
+      <Properties>
+        <LoadOrder>220</LoadOrder>
+      </Properties>
+      <File>Text/UC_COM_Text.sql</File>
+    </UpdateText>
+    <UpdateIcons id="Icons">
+      <File>Icons/UC_COM_Icons.sql</File>
+    </UpdateIcons>
+    <UpdateArt id="Dependency">
+      <Properties>
+        <LoadOrder>220</LoadOrder>
+      </Properties>
+      <File>UC_Expansion_Commerce.dep</File>
+    </UpdateArt>
+    <UpdateDatabase id="GameplayModSupport">
+      <Properties>
+        <LoadOrder>222</LoadOrder>
+      </Properties>
+      <File>ModSupport/UC_COM_City_States_Tier3.sql</File>
+      <File>ModSupport/UC_COM_RwF.sql</File>
+      <File>ModSupport/CSE/UC_COM_CSE_Trade.sql</File>
+      <File>ModSupport/CSE/UC_COM_CSE_Trade_Harbor.sql</File>
+      <File>ModSupport/CSE/UC_COM_CSE_Maritime_Food.sql</File>
+      <File>ModSupport/CSE/UC_COM_CSE_Maritime_Production.sql</File>
+      <File>ModSupport/CSE/UC_COM_CSE_Maritime_Gold.sql</File>
+      <File>ModSupport/CSE/UC_COM_CSE_Uniques.sql</File>
+      <File />
+    </UpdateDatabase>
+  </InGameActions>
+  <Files>
+    <File>ArtDefs/Buildings.artdef</File>
+    <File>ArtDefs/Landmarks.artdef</File>
+    <File>Data/UC_COM_Bonuses_Special.sql</File>
+    <File>Data/UC_COM_Bonuses_TradeRoutes.sql</File>
+    <File>Data/UC_COM_Bonuses_Yields.sql</File>
+    <File>Data/UC_COM_Buildings.sql</File>
+    <File>Data/UC_COM_City_States.sql</File>
+    <File>Data/UC_COM_Districts.sql</File>
+    <File>Data/UC_COM_Misc.sql</File>
+    <File>Data/UC_COM_Policies.sql</File>
+    <File>Data/UC_COM_Requirements.sql</File>
+    <File>Icons/UC_COM_Icons.sql</File>
+    <File>ModSupport/CSE/UC_COM_CSE_Maritime_Food.sql</File>
+    <File>ModSupport/CSE/UC_COM_CSE_Maritime_Gold.sql</File>
+    <File>ModSupport/CSE/UC_COM_CSE_Maritime_Production.sql</File>
+    <File>ModSupport/CSE/UC_COM_CSE_Trade.sql</File>
+    <File>ModSupport/CSE/UC_COM_CSE_Trade_Harbor.sql</File>
+    <File>ModSupport/CSE/UC_COM_CSE_Uniques.sql</File>
+    <File>ModSupport/UC_COM_City_States_Tier3.sql</File>
+    <File>ModSupport/UC_COM_RwF.sql</File>
+    <File>Text/UC_COM_Text.sql</File>
+    <File>UC_Expansion_Commerce.dep</File>
+  </Files>
+</Mod>

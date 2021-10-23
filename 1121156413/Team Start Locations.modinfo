@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="44acbd65-8c63-4f64-81b1-b53b342f8960" version="4">
+  <Properties>
+    <Name>Team Start Locations</Name>
+    <Description>This mod makes human and AI teams have a start position that is closer to each other. It also makes the coastal start bias ignore lakes, so that you end up with a sea or ocean coast instead of a 1-tile lake when playing as civilizations that have a coastal bias (i.e. England).</Description>
+    <Teaser>This mod makes civilizations that are in a team start closer together.</Teaser>
+    <Authors>AOM</Authors>
+    <CompatibleVersions>2.0</CompatibleVersions>
+  </Properties>
+  <ActionCriteria>
+    <Criteria id="Expansion2">
+      <GameCoreInUse>Expansion2</GameCoreInUse>
+    </Criteria>
+    <Criteria id="Expansion2AndBeyond" any="1">
+      <GameCoreInUse>Expansion2</GameCoreInUse>
+      <LeaderPlayable>Players:Expansion2_Players::LEADER_DIDO,Players:Expansion2_Players::LEADER_ELEANOR_ENGLAND,Players:Expansion2_Players::LEADER_ELEANOR_FRANCE,Players:Expansion2_Players::LEADER_KRISTINA,Players:Expansion2_Players::LEADER_KUPE,Players:Expansion2_Players::LEADER_LAURIER,Players:Expansion2_Players::LEADER_MANSA_MUSA,Players:Expansion2_Players::LEADER_MATTHIAS_CORVINUS,Players:Expansion2_Players::LEADER_PACHACUTI,Players:Expansion2_Players::LEADER_SULEIMAN</LeaderPlayable>
+    </Criteria>
+  </ActionCriteria>
+  <InGameActions>
+    <ImportFiles id="LuaOverrides">
+      <Properties>
+        <LoadOrder>100</LoadOrder>
+      </Properties>
+      <File priority="2">Maps/Utilities/AssignStartingPlots.lua</File>
+    </ImportFiles>
+    <ImportFiles id="LuaOverrides_EP2">
+      <Properties>
+        <LoadOrder>1000</LoadOrder>
+      </Properties>
+      <Criteria>Expansion2AndBeyond</Criteria>
+      <File>EP2/Maps/Utilities/AssignStartingPlots.lua</File>
+    </ImportFiles>
+  </InGameActions>
+  <Files>
+    <File>EP2/Maps/Utilities/AssignStartingPlots.lua</File>
+    <File>Maps/Utilities/AssignStartingPlots.lua</File>
+  </Files>
+</Mod>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- UC_GP_Buildings -->
+<!-- Author: JNR -->
+<GameInfo>
+	<Types>
+		<Row Type="BUILDING_GOV_JNR_MOCC" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_GOV_JNR_PROPAGANDA" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_GOV_JNR_DIPLOMACY" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_GOV_JNR_DIPLOMACY_US" Kind="KIND_BUILDING"/>
+	</Types>
+	<Buildings>
+		<Row BuildingType="BUILDING_GOV_JNR_MOCC"
+		     Name="LOC_BUILDING_GOV_JNR_MOCC_NAME"
+		     Description="LOC_BUILDING_GOV_JNR_MOCC_DESCRIPTION"
+		     PrereqDistrict="DISTRICT_GOVERNMENT"
+		     Cost="1160"
+		     AdvisorType="ADVISOR_GENERIC"
+		     Maintenance="4"
+		     UnlocksGovernmentPolicy="True"
+		     GovernmentTierRequirement="Tier4"
+		/>
+		<Row BuildingType="BUILDING_GOV_JNR_PROPAGANDA"
+		     Name="LOC_BUILDING_GOV_JNR_PROPAGANDA_NAME"
+		     Description="LOC_BUILDING_GOV_JNR_PROPAGANDA_DESCRIPTION"
+		     PrereqDistrict="DISTRICT_GOVERNMENT"
+		     Cost="1160"
+		     AdvisorType="ADVISOR_GENERIC"
+		     Maintenance="4"
+		     UnlocksGovernmentPolicy="True"
+		     GovernmentTierRequirement="Tier4"
+		/>
+		<Row BuildingType="BUILDING_GOV_JNR_DIPLOMACY"
+			 Name="LOC_BUILDING_GOV_JNR_DIPLOMACY_NAME"
+			 Description="LOC_BUILDING_GOV_JNR_DIPLOMACY_DESCRIPTION"
+			 PrereqDistrict="DISTRICT_GOVERNMENT"
+			 Cost="1160"
+			 AdvisorType="ADVISOR_GENERIC"
+			 Maintenance="4"
+			 UnlocksGovernmentPolicy="True"
+			 GovernmentTierRequirement="Tier4"
+		/>
+		<Row BuildingType="BUILDING_GOV_JNR_DIPLOMACY_US"
+			 Name="LOC_BUILDING_GOV_JNR_DIPLOMACY_US_NAME"
+			 Description="LOC_BUILDING_GOV_JNR_DIPLOMACY_US_DESCRIPTION"
+			 PrereqDistrict="DISTRICT_GOVERNMENT"
+			 Cost="1160"
+			 AdvisorType="ADVISOR_GENERIC"
+			 Maintenance="4"
+			 UnlocksGovernmentPolicy="True"
+			 GovernmentTierRequirement="Tier4"
+			 TraitType="TRAIT_CIVILIZATION_FOUNDING_FATHERS"
+		/>
+	</Buildings>
+</GameInfo>

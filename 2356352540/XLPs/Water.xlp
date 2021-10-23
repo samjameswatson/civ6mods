@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..XLP>
+	<m_Version>
+		<major>1</major>
+		<minor>0</minor>
+		<build>0</build>
+		<revision>0</revision>
+	</m_Version>
+	<m_ClassName text="Water"/>
+	<m_PackageName text="Water"/>
+	<m_Entries>
+		<Element>
+			<m_EntryID text="Water/Lake"/>
+			<m_ObjectName text="Water/Lake"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Water/Opaque"/>
+			<m_ObjectName text="Water/Opaque"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Water/Pink"/>
+			<m_ObjectName text="Water/Pink"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Water/DeadSea"/>
+			<m_ObjectName text="Water/DeadSea"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Water/LakeVictoria"/>
+			<m_ObjectName text="Water/LakeVictoria"/>
+		</Element>
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+		<Element>MACOS</Element>
+		<Element>IOS</Element>
+		<Element>LINUX</Element>
+		<Element>XBONE</Element>
+		<Element>PS4</Element>
+		<Element>SWITCH</Element>
+		<Element>STADIA</Element>
+	</m_AllowedPlatforms>
+</AssetObjects..XLP>
+

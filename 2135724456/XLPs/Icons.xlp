@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..XLP>
+	<m_Version>
+		<major>1</major>
+		<minor>0</minor>
+		<build>0</build>
+		<revision>0</revision>
+	</m_Version>
+	<m_ClassName text="UITexture"/>
+	<m_PackageName text="UI/Icons"/>
+	<m_Entries>
+		<Element>
+			<m_EntryID text="Wetlands_Resources22"/>
+			<m_ObjectName text="Wetlands_Resources22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Wetlands_Resources256"/>
+			<m_ObjectName text="Wetlands_Resources256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Wetlands_Resources38"/>
+			<m_ObjectName text="Wetlands_Resources38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Wetlands_Resources50"/>
+			<m_ObjectName text="Wetlands_Resources50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Wetlands_Resources64"/>
+			<m_ObjectName text="Wetlands_Resources64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Wetlands_Resources256_FOW"/>
+			<m_ObjectName text="Wetlands_Resources256_FOW"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Wetlands_UnitActions256"/>
+			<m_ObjectName text="Wetlands_UnitActions256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Wetlands_UnitActions38"/>
+			<m_ObjectName text="Wetlands_UnitActions38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Wetlands_UnitActions50"/>
+			<m_ObjectName text="Wetlands_UnitActions50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Wetlands_UnitActions80"/>
+			<m_ObjectName text="Wetlands_UnitActions80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Wetlands_Features256"/>
+			<m_ObjectName text="Wetlands_Features256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Wetlands_Features50"/>
+			<m_ObjectName text="Wetlands_Features50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Wetlands_Features64"/>
+			<m_ObjectName text="Wetlands_Features64"/>
+		</Element>
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+		<Element>LINUX</Element>
+		<Element>MACOS</Element>
+		<Element>IOS</Element>
+	</m_AllowedPlatforms>
+</AssetObjects..XLP>
+

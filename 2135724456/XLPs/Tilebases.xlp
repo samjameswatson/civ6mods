@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..XLP>
+	<m_Version>
+		<major>1</major>
+		<minor>0</minor>
+		<build>0</build>
+		<revision>0</revision>
+	</m_Version>
+	<m_ClassName text="TileBase"/>
+	<m_PackageName text="landmarks/tilebases"/>
+	<m_Entries>
+		<Element>
+			<m_EntryID text="IMP_QuarryREDO_ANC_Peat"/>
+			<m_ObjectName text="IMP_QuarryREDO_ANC_Peat"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_QuarryREDO_GrassTuft_Peat_A"/>
+			<m_ObjectName text="IMP_QuarryREDO_GrassTuft_Peat_A"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_QuarryREDO_GrassTuft_Peat_B"/>
+			<m_ObjectName text="IMP_QuarryREDO_GrassTuft_Peat_B"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_QuarryREDO_GrassTuft_Peat_C"/>
+			<m_ObjectName text="IMP_QuarryREDO_GrassTuft_Peat_C"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_QuarryREDO_GrassTuft_Peat_D"/>
+			<m_ObjectName text="IMP_QuarryREDO_GrassTuft_Peat_D"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_QuarryREDO_GrassTuft_Peat_E"/>
+			<m_ObjectName text="IMP_QuarryREDO_GrassTuft_Peat_E"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_QuarryREDO_IND_Peat"/>
+			<m_ObjectName text="IMP_QuarryREDO_IND_Peat"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_QuarryREDO_Terrain_Peat"/>
+			<m_ObjectName text="IMP_QuarryREDO_Terrain_Peat"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_Oasis_Farm_Decal_Transition_04"/>
+			<m_ObjectName text="IMP_Oasis_Farm_Decal_Transition_04"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_Oasis_Farm_Decal_Angled_01"/>
+			<m_ObjectName text="IMP_Oasis_Farm_Decal_Angled_01"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_Oasis_Farm_Decal_Angled_02"/>
+			<m_ObjectName text="IMP_Oasis_Farm_Decal_Angled_02"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_Oasis_Farm_Decal_Angled_03"/>
+			<m_ObjectName text="IMP_Oasis_Farm_Decal_Angled_03"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_Oasis_Farm_Decal_Angled_04"/>
+			<m_ObjectName text="IMP_Oasis_Farm_Decal_Angled_04"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_Oasis_Farm_Decal_Square_01"/>
+			<m_ObjectName text="IMP_Oasis_Farm_Decal_Square_01"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_Oasis_Farm_Decal_Square_02"/>
+			<m_ObjectName text="IMP_Oasis_Farm_Decal_Square_02"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_Oasis_Farm_Decal_Square_03"/>
+			<m_ObjectName text="IMP_Oasis_Farm_Decal_Square_03"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_Oasis_Farm_Decal_Square_04"/>
+			<m_ObjectName text="IMP_Oasis_Farm_Decal_Square_04"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_Oasis_Farm_Decal_Square_05"/>
+			<m_ObjectName text="IMP_Oasis_Farm_Decal_Square_05"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_Oasis_Farm_Decal_Square_06"/>
+			<m_ObjectName text="IMP_Oasis_Farm_Decal_Square_06"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_Oasis_Farm_Decal_Square_07"/>
+			<m_ObjectName text="IMP_Oasis_Farm_Decal_Square_07"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_Oasis_Farm_Decal_Square_08"/>
+			<m_ObjectName text="IMP_Oasis_Farm_Decal_Square_08"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_Oasis_Farm_Decal_Transition_01"/>
+			<m_ObjectName text="IMP_Oasis_Farm_Decal_Transition_01"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_Oasis_Farm_Decal_Transition_02"/>
+			<m_ObjectName text="IMP_Oasis_Farm_Decal_Transition_02"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_Oasis_Farm_Decal_Transition_03"/>
+			<m_ObjectName text="IMP_Oasis_Farm_Decal_Transition_03"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_Oasis_Farm_Decal_Transition_06"/>
+			<m_ObjectName text="IMP_Oasis_Farm_Decal_Transition_06"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_Oasis_Farm_Decal_Transition_08"/>
+			<m_ObjectName text="IMP_Oasis_Farm_Decal_Transition_08"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_Oasis_Farm_Decal_Transition_09"/>
+			<m_ObjectName text="IMP_Oasis_Farm_Decal_Transition_09"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_OasisFarmTile_00_AN_A"/>
+			<m_ObjectName text="IMP_OasisFarmTile_00_AN_A"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_OasisFarmTile_01_AN_A"/>
+			<m_ObjectName text="IMP_OasisFarmTile_01_AN_A"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_OasisFarmTile_02_AN_A"/>
+			<m_ObjectName text="IMP_OasisFarmTile_02_AN_A"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_OasisFarmTile_03_AN_A"/>
+			<m_ObjectName text="IMP_OasisFarmTile_03_AN_A"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_OasisFarmTile_04_AN_A"/>
+			<m_ObjectName text="IMP_OasisFarmTile_04_AN_A"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_OasisFarmTile_05_AN_A"/>
+			<m_ObjectName text="IMP_OasisFarmTile_05_AN_A"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_OasisFarmTile_06_AN_A"/>
+			<m_ObjectName text="IMP_OasisFarmTile_06_AN_A"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_OasisFarmTile_07_AN_A"/>
+			<m_ObjectName text="IMP_OasisFarmTile_07_AN_A"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_Oasis_Farm_Decal_Transition_05"/>
+			<m_ObjectName text="IMP_Oasis_Farm_Decal_Transition_05"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_Oasis_Farm_Decal_Transition_07"/>
+			<m_ObjectName text="IMP_Oasis_Farm_Decal_Transition_07"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_Oasis_Farm_Decal_Transition_10"/>
+			<m_ObjectName text="IMP_Oasis_Farm_Decal_Transition_10"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_Oasis_Farm_Decal_Transition_11"/>
+			<m_ObjectName text="IMP_Oasis_Farm_Decal_Transition_11"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_Oasis_Farm_Decal_Transition_12"/>
+			<m_ObjectName text="IMP_Oasis_Farm_Decal_Transition_12"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_Oasis_Farm_Decal_Angled_01_NoGrass"/>
+			<m_ObjectName text="IMP_Oasis_Farm_Decal_Angled_01_NoGrass"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_Oasis_Farm_Decal_Angled_02_NoGrass"/>
+			<m_ObjectName text="IMP_Oasis_Farm_Decal_Angled_02_NoGrass"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_Oasis_Farm_Decal_Angled_03_NoGrass"/>
+			<m_ObjectName text="IMP_Oasis_Farm_Decal_Angled_03_NoGrass"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_Oasis_Farm_Decal_Angled_04_NoGrass"/>
+			<m_ObjectName text="IMP_Oasis_Farm_Decal_Angled_04_NoGrass"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_Oasis_Farm_Decal_Square_01_NoGrass"/>
+			<m_ObjectName text="IMP_Oasis_Farm_Decal_Square_01_NoGrass"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_Oasis_Farm_Decal_Square_02_NoGrass"/>
+			<m_ObjectName text="IMP_Oasis_Farm_Decal_Square_02_NoGrass"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_Oasis_Farm_Decal_Square_03_NoGrass"/>
+			<m_ObjectName text="IMP_Oasis_Farm_Decal_Square_03_NoGrass"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_Oasis_Farm_Decal_Square_04_NoGrass"/>
+			<m_ObjectName text="IMP_Oasis_Farm_Decal_Square_04_NoGrass"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_Oasis_Farm_Decal_Square_06_NoGrass"/>
+			<m_ObjectName text="IMP_Oasis_Farm_Decal_Square_06_NoGrass"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_Oasis_Farm_Decal_Square_07_NoGrass"/>
+			<m_ObjectName text="IMP_Oasis_Farm_Decal_Square_07_NoGrass"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_Oasis_Farm_Decal_Square_08_NoGrass"/>
+			<m_ObjectName text="IMP_Oasis_Farm_Decal_Square_08_NoGrass"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_Oasis_Farm_Decal_Transition_01_NoGrass"/>
+			<m_ObjectName text="IMP_Oasis_Farm_Decal_Transition_01_NoGrass"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_Oasis_Farm_Decal_Transition_02_NoGrass"/>
+			<m_ObjectName text="IMP_Oasis_Farm_Decal_Transition_02_NoGrass"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_Oasis_Farm_Decal_Transition_03_NoGrass"/>
+			<m_ObjectName text="IMP_Oasis_Farm_Decal_Transition_03_NoGrass"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_Oasis_Farm_Decal_Transition_04_NoGrass"/>
+			<m_ObjectName text="IMP_Oasis_Farm_Decal_Transition_04_NoGrass"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_Oasis_Farm_Decal_Transition_06_NoGrass"/>
+			<m_ObjectName text="IMP_Oasis_Farm_Decal_Transition_06_NoGrass"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_Oasis_Farm_Decal_Transition_08_NoGrass"/>
+			<m_ObjectName text="IMP_Oasis_Farm_Decal_Transition_08_NoGrass"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_Oasis_Farm_Decal_Transition_09_NoGrass"/>
+			<m_ObjectName text="IMP_Oasis_Farm_Decal_Transition_09_NoGrass"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_Reed_Home_ANC"/>
+			<m_ObjectName text="IMP_Reed_Home_ANC"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_Reed_Home_Plank_A"/>
+			<m_ObjectName text="IMP_Reed_Home_Plank_A"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_Reed_Home_Plank_B"/>
+			<m_ObjectName text="IMP_Reed_Home_Plank_B"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_Reed_Home_Plank_C"/>
+			<m_ObjectName text="IMP_Reed_Home_Plank_C"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_Reed_Home_Fish_Bin"/>
+			<m_ObjectName text="IMP_Reed_Home_Fish_Bin"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_Reed_Home_Hut_Tall"/>
+			<m_ObjectName text="IMP_Reed_Home_Hut_Tall"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_Reed_Home_Hut_Wide"/>
+			<m_ObjectName text="IMP_Reed_Home_Hut_Wide"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_Reed_Home_Torch"/>
+			<m_ObjectName text="IMP_Reed_Home_Torch"/>
+		</Element>
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+		<Element>LINUX</Element>
+		<Element>MACOS</Element>
+		<Element>IOS</Element>
+	</m_AllowedPlatforms>
+</AssetObjects..XLP>
+

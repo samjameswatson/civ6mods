@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="72d77fd9-7d34-4539-97d9-f5c23de67814" version="2">
+  <Properties>
+    <Name>UC - Encampment Expansion</Name>
+    <Description>New military-focused building choices for Encampment, Harbor, and Aerodrome.</Description>
+    <Created>1578201274</Created>
+    <Teaser>Encampment overhaul with new building choices.</Teaser>
+    <Authors>JNR</Authors>
+    <CompatibleVersions>2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+    <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
+  </Dependencies>
+  <References>
+    <Mod id="E2749E9A-8056-45CD-901B-C368C8E83DEB" title="DLC: Persia and Macedon Civilization Pack" />
+    <Mod id="1B28771A-C749-434B-9053-D1380C553DE9" title="Expansion: Rise and Fall" />
+  </References>
+  <InGameActions>
+    <UpdateArt id="Dependency">
+      <Properties>
+        <LoadOrder>210</LoadOrder>
+      </Properties>
+      <File>UC - Encampment Expansion.dep</File>
+    </UpdateArt>
+    <UpdateDatabase id="Gameplay">
+      <Properties>
+        <LoadOrder>210</LoadOrder>
+      </Properties>
+      <File>Data/UC_MIL_Requirements.sql</File>
+      <File>Data/UC_MIL_Districts.sql</File>
+      <File>Data/UC_MIL_Buildings.sql</File>
+      <File>Data/UC_MIL_Bonuses_Yields.sql</File>
+      <File>Data/UC_MIL_Bonuses_Production.sql</File>
+      <File>Data/UC_MIL_Bonuses_XP.sql</File>
+      <File>Data/UC_MIL_Bonuses_Promotions.sql</File>
+      <File>Data/UC_MIL_Bonuses_Special.sql</File>
+      <File>Data/UC_MIL_Policies.sql</File>
+      <File>Data/UC_MIL_Boosts.sql</File>
+      <File>Data/UC_MIL_City_States.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="Text">
+      <Properties>
+        <LoadOrder>210</LoadOrder>
+      </Properties>
+      <File>Text/UC_MIL_Text.sql</File>
+    </UpdateText>
+    <UpdateIcons id="Icons">
+      <Properties>
+        <LoadOrder>210</LoadOrder>
+      </Properties>
+      <File>Icons/UC_MIL_Icons.sql</File>
+    </UpdateIcons>
+    <UpdateDatabase id="Gameplay_CSE">
+      <Properties>
+        <LoadOrder>210</LoadOrder>
+      </Properties>
+      <File>ModSupport/UC_MIL_CSE.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="Text_CSE">
+      <Properties>
+        <LoadOrder>210</LoadOrder>
+      </Properties>
+      <File>ModSupport/UC_MIL_CSE_Text.sql</File>
+    </UpdateText>
+    <UpdateDatabase id="Gameplay_TM">
+      <Properties>
+        <LoadOrder>210</LoadOrder>
+      </Properties>
+      <File>ModSupport/UC_MIL_TerraMirabilis.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="Gameplay_WE">
+      <Properties>
+        <LoadOrder>210</LoadOrder>
+      </Properties>
+      <File>ModSupport/UC_MIL_WarfareExpanded_Production.sql</File>
+      <File>ModSupport/UC_MIL_WarfareExpanded_XP.sql</File>
+      <File>ModSupport/UC_MIL_WarfareExpanded_Promotions.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="Text_WE">
+      <Properties>
+        <LoadOrder>211</LoadOrder>
+      </Properties>
+      <File>ModSupport/UC_MIL_WarfareExpanded_Text.sql</File>
+    </UpdateText>
+  </InGameActions>
+  <Files>
+    <File>ArtDefs/Buildings.artdef</File>
+    <File>ArtDefs/Landmarks.artdef</File>
+    <File>Data/UC_MIL_Bonuses_Production.sql</File>
+    <File>Data/UC_MIL_Bonuses_Promotions.sql</File>
+    <File>Data/UC_MIL_Bonuses_Special.sql</File>
+    <File>Data/UC_MIL_Bonuses_XP.sql</File>
+    <File>Data/UC_MIL_Bonuses_Yields.sql</File>
+    <File>Data/UC_MIL_Boosts.sql</File>
+    <File>Data/UC_MIL_Buildings.sql</File>
+    <File>Data/UC_MIL_City_States.sql</File>
+    <File>Data/UC_MIL_Districts.sql</File>
+    <File>Data/UC_MIL_Policies.sql</File>
+    <File>Data/UC_MIL_Requirements.sql</File>
+    <File>Icons/UC_MIL_Icons.sql</File>
+    <File>Mod.Art.xml</File>
+    <File>ModSupport/UC_MIL_CSE.sql</File>
+    <File>ModSupport/UC_MIL_CSE_Text.sql</File>
+    <File>ModSupport/UC_MIL_TerraMirabilis.sql</File>
+    <File>ModSupport/UC_MIL_WarfareExpanded_Production.sql</File>
+    <File>ModSupport/UC_MIL_WarfareExpanded_Promotions.sql</File>
+    <File>ModSupport/UC_MIL_WarfareExpanded_Text.sql</File>
+    <File>ModSupport/UC_MIL_WarfareExpanded_XP.sql</File>
+    <File>Text/UC_MIL_Text.sql</File>
+    <File>UC - Encampment Expansion.dep</File>
+  </Files>
+</Mod>

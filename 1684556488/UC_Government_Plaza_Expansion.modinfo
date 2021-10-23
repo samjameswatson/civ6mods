@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="cf1615ca-1543-4c67-9da9-1d518f31c0e7" version="1">
+  <Properties>
+    <Name>UC - Government Plaza Expansion</Name>
+    <Description>New features for the Government Plaza district.[NEWLINE]- Three new Level 4 buildings to choose from, connected to future era governments.[NEWLINE]- Future Era government legacy policies granted by the new buildings.[NEWLINE]- All Level 2 buildings in the Government Plaza district grant +50% Production towards Settlers in your civilization.[NEWLINE]- All Level 3 buildings in the Government Plaza district increase the border expansion rate by 500% and reduce land purchase cost by 50%.[NEWLINE]-  Building a Government Plaza triggers a Culture Bomb.</Description>
+    <Teaser>New features for the Government Plaza district.</Teaser>
+    <Authors>JNR</Authors>
+	<CompatibleVersions>2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+    <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
+  </Dependencies>
+  <InGameActions>
+    <UpdateDatabase id="Database">
+      <Properties>
+        <LoadOrder>13</LoadOrder>
+      </Properties>
+      <File>UC_GP_Buildings.xml</File>
+      <File>UC_GP_Culture_Bomb.sql</File>
+      <File>UC_GP_Policies.sql</File>
+      <File>UC_GP_Tier_2_3.sql</File>
+      <File>UC_GP_Tier_4.sql</File>
+      <File>UC_GP_UnitAbilities.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="Text">
+      <Properties>
+        <LoadOrder>13</LoadOrder>
+      </Properties>
+      <File>UC_GP_Text.sql</File>
+    </UpdateText>
+    <UpdateIcons id="Icons">
+      <Properties>
+        <LoadOrder>13</LoadOrder>
+      </Properties>
+      <File>UC_GP_Icons.sql</File>
+    </UpdateIcons>
+  </InGameActions>
+  <Files>
+    <File>UC_GP_Buildings.xml</File>
+    <File>UC_GP_Culture_Bomb.sql</File>
+    <File>UC_GP_Icons.sql</File>
+    <File>UC_GP_Policies.sql</File>
+    <File>UC_GP_Text.sql</File>
+    <File>UC_GP_Tier_2_3.sql</File>
+    <File>UC_GP_Tier_4.sql</File>
+    <File>UC_GP_UnitAbilities.sql</File>
+  </Files>
+</Mod>

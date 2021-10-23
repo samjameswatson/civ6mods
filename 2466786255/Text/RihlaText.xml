@@ -1,0 +1,523 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<Replace Tag='LOC_SC_RIHLA_TITLE_BANNER'   Text='Global Rankings'   Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_YOU'   Text='(You)'   Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_UNMET_CIV'   Text='Unmet Civilization'   Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_UNMET_CITY'   Text='Undiscovered City'   Language='en_US' />
+
+		<Replace Tag='LOC_SC_RIHLA_MALE'   Text=' has completed his greatest work, the list of'   Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_FEMALE'   Text=' has completed her greatest work, the list of'   Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_NEUTRAL_OUTSIDE'   Text=' has provided us with information, allowing us to compile a list of'   Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_NEUTRAL'   Text=' has completed their greatest work, the list of'   Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_HAS_FOUND'   Text=' has found that this is the definitive list of'   Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_PLURAL'   Text=' have completed their greatest work yet, a list of'   Language='en_US' />
+
+		<Replace Tag='LOC_SC_RIHLA_ORACLE'   Text=', through the will of the gods, has divined a ranking of'   Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_RUMORS'   Text=' swirl of other Civilizations and how they rank among'   Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_LEGENDS'   Text=' tell of a prophet unto whom was revealed a ranking of'   Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_AI'   Text=' has determined that the answer to the Ultimate Question of Life, the Universe, and Everything is "42." While doing so, it also compiled a list of'   Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_MEME'   Text=' is spreading on social media, containing a ranking of'   Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_SATELLITES'   Text=' has determined that these are the'   Language='en_US' />
+
+		<Replace Tag='LOC_SC_RIHLA_ANCIENT_1'   Text='Our hardworking scribes'   Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_ANCIENT_2'   Text='A lonely traveler'   Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_ANCIENT_3'   Text='A famous oracle'   Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_ANCIENT_4'   Text='A wandering merchant'   Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_ANCIENT_5'   Text='A band of mercenaries'   Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_ANCIENT_6'   Text='A group of exiles'   Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_ANCIENT_7'   Text='Rumors'   Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_ANCIENT_8'   Text='Our greatest philosophers'   Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_ANCIENT_9'   Text='A nomadic tribe'   Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_ANCIENT_10'   Text='Legends'   Language='en_US' />
+
+		<Replace Tag='LOC_SC_RIHLA_CLASSICAL_1'   Text='Pausanias'   Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_CLASSICAL_2'   Text='Dionysius Periegetes'   Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_CLASSICAL_3'   Text='Egeria'   Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_CLASSICAL_4'   Text='Cosmas Indicopleustes'   Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_CLASSICAL_5'   Text='Strabo'   Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_CLASSICAL_6'   Text='Pytheas'   Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_CLASSICAL_7'   Text='Scylax of Caryanda'   Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_CLASSICAL_8'   Text='Herodotus'   Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_CLASSICAL_9'   Text='Pliny the Elder'   Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_CLASSICAL_10'   Text='Faxian'   Language='en_US' />
+
+		<Replace Tag='LOC_SC_RIHLA_MEDIEVAL_1'   Text='Ibn Battuta'   Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_MEDIEVAL_10'   Text='Afanasy Nikitin'   Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_MEDIEVAL_2'   Text='Benjamin of Tudela'   Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_MEDIEVAL_3'   Text='Marco Polo'   Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_MEDIEVAL_4'   Text='Nasir Khusraw'   Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_MEDIEVAL_5'   Text='Xuanzang'   Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_MEDIEVAL_6'   Text='Lady Sarashina'   Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_MEDIEVAL_7'   Text='Zhou Daguan'   Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_MEDIEVAL_8'   Text='Ghiyath al-Din Niqqash'   Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_MEDIEVAL_9'   Text='Du Huan'   Language='en_US' />
+
+		<Replace Tag='LOC_SC_RIHLA_RENAISSANCE_1'   Text='Rose de Freycinet'   Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_RENAISSANCE_2'   Text='Peter Mundy'   Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_RENAISSANCE_3'   Text='Jean-Baptiste Tavernier'   Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_RENAISSANCE_4'   Text='Ludovico di Varthema'   Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_RENAISSANCE_5'   Text='Fernão Mendes Pinto'   Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_RENAISSANCE_6'   Text='Choe Bu'   Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_RENAISSANCE_7'   Text='Evliya Çelebi'   Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_RENAISSANCE_8'   Text='Leo Africanus'   Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_RENAISSANCE_9'   Text='Vasileios Vatatzes'   Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_RENAISSANCE_10'   Text='Xu Xiake'   Language='en_US' />
+
+		<Replace Tag='LOC_SC_RIHLA_INDUSTRIAL_1'   Text='Vishnubhat Godse'   Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_INDUSTRIAL_2'   Text='Nellie Bly'   Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_INDUSTRIAL_3'   Text='Ida Laura Pfeiffer'   Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_INDUSTRIAL_4'   Text='Bojidar Karageorgevitch'   Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_INDUSTRIAL_5'   Text='Frances Erskine Inglis'   Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_INDUSTRIAL_6'   Text='Alexander von Humboldt'   Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_INDUSTRIAL_7'   Text='Rifa’a al-Tahtawi'   Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_INDUSTRIAL_8'   Text='Mary Kingsley'   Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_INDUSTRIAL_9'   Text='Xue Fucheng'   Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_INDUSTRIAL_10'   Text='Ilarione da Bergamo'   Language='en_US' />
+
+		<Replace Tag='LOC_SC_RIHLA_MODERN_1'   Text='Lyuba Kutincheva'   Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_MODERN_2'   Text='Ethel Brilliana Tweedie'   Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_MODERN_3'   Text='Robert Byron'   Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_MODERN_4'   Text='Rebecca West'   Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_MODERN_5'   Text='Alma Karlin'   Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_MODERN_6'   Text='Evelyn Waugh'   Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_MODERN_7'   Text='Richard Halliburton'   Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_MODERN_8'   Text='Gertrude Bell'   Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_MODERN_9'   Text='H. V. Morton'   Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_MODERN_10'   Text='Jelena Dimitrijević'   Language='en_US' />
+
+		<Replace Tag='LOC_SC_RIHLA_ATOMIC_1'   Text='Barbara Toy'   Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_ATOMIC_2'   Text='Wilfred Thesiger'   Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_ATOMIC_3'   Text='Bruce Chatwin'   Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_ATOMIC_4'   Text='Paul Theroux'   Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_ATOMIC_5'   Text='Jan Morris'   Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_ATOMIC_6'   Text='Chiang Yee'   Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_ATOMIC_7'   Text='V. S. Naipaul'   Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_ATOMIC_8'   Text='Eric Newby'   Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_ATOMIC_9'   Text='Rahul Sankrityayan'   Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_ATOMIC_10'   Text='Freya Stark'   Language='en_US' />
+
+		<Replace Tag='LOC_SC_RIHLA_INFORMATION_1'   Text='Rick Steves'   Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_INFORMATION_2'   Text='Elizabeth Gilbert'   Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_INFORMATION_3'   Text='Robin Esrock'   Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_INFORMATION_4'   Text='Mikirō Sasaki'   Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_INFORMATION_5'   Text='Bill Bryson'   Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_INFORMATION_6'   Text='Rory MacLean'   Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_INFORMATION_7'   Text='Tahir Shah'   Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_INFORMATION_8'   Text='Pico Iyer'   Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_INFORMATION_9'   Text='Rolf Potts'   Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_INFORMATION_10'   Text='Lonely Planet'   Language='en_US' />
+
+		<Replace Tag='LOC_SC_RIHLA_FUTURE_1'   Text='An Articial Intelligence'   Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_FUTURE_2'   Text='A new study'   Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_FUTURE_3'   Text='Extensive datamining'   Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_FUTURE_4'   Text='A prominent NGO'   Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_FUTURE_5'   Text='A travel blog'   Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_FUTURE_6'   Text='A viral meme'   Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_FUTURE_7'   Text='Researchers'   Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_FUTURE_8'   Text='The intelligence community'   Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_FUTURE_9'   Text='Our spy satellites'   Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_FUTURE_10'   Text='A new government report'   Language='en_US' />
+
+		<Replace Tag='LOC_SC_RIHLA_LIST_FOOD'		Text='The World’s Most Well-Fed People'	Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_PRODUCTION'	Text='The World’s Busiest People'	Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_GOLD'		Text='The People Who Like Shiny Things the Most'	Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_TECH'		Text='The Mostest Literate People'	Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_CIVICS'		Text='The World’s Most Progressive People'	Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_AMENITIES'	Text='The People that Like to Smile the Most'	Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_WONDERS'	Text='The World’s Most Wonderful People'	Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_MILITARY'	Text='The People with the Pointiest Sticks'	Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_FAITH_TURN'	Text='The World’s Most Faithful People'	Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_POPULATION'	Text='The World’s Most Populous Civilizations'	Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_GOLD_TURN'	Text='The People with the Biggest Incomes'	Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_SCIENCE_TURN'	Text='The World’s Most Research-Oriented People'	Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_CULTURE_TURN'	Text='The World’s Most Cultured People'	Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_GREAT_PEOPLE'	Text='The People with the Greatest Minds'	Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_TRADE_ROUTES'	Text='The World’s Most Mercantile-Minded People'	Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_GREAT_WORKS'	Text='The People with the Greatest Works'	Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_WIDE'		Text='The World’s Widest Civilizations'	Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_TALL'		Text='The World’s Tallest Civilizations'	Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_TOURISM'	Text='The Places We Love to Visit Most'	Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_FAITH'		Text='The People Most Likely to Tithe'	Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_DEVELOPED'	Text='The World’s Most Developed People'	Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_GREEN'		Text='The World’s Greenest People'	Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_NAVAL'		Text='The People with the Best Sea Legs'	Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_CAPTURES'	Text='The World’s Greatest Conquerors'	Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_SUZERAINS'	Text='The Greatest Hegemons of the World'	Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_PARKS'		Text='The People with the Greatest Outdoors'	Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_LUXURIES'	Text='The World’s Most Luxurious People'	Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_SCORE'		Text='The World’s Most Impressive People'	Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_POLLUTION'	Text='The People who Pollute the Most'	Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_GOVERNORS'	Text='The World’s Most Well-Governed People'	Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_IMPROVED'	Text='The World’s Most-Improved People'	Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_LOYAL'		Text='The World’s Most Loyal People'	Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_FAVOR'		Text='The World’s Most Favored People'	Language='en_US' />
+
+		<Replace Tag='LOC_SC_RIHLA_LIST_TOURISM_CITY'	Text='The World’s Top Travel Destinations'	Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_PRODUCTION_CITY'	Text='The World’s Biggest Centers of Industry'	Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_GOLD_CITY'		Text='The World’s Biggest Financial Capitals'	Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_CULTURE_CITY'	Text='The World’s Premier Cultural Hubs'	Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_FOOD_CITY'		Text='The World’s Most Vital Breadbaskets'	Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_SCIENCE_CITY'	Text='The World’s Top Centers of Research'	Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_FAITH_CITY'		Text='The World’s Holiest Cities'	Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_POPULATION_CITY'	Text='The World’s Largest Metropolises'	Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_POWER_CITY'		Text='The World’s Most Powerful Cities'	Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_HOUSING_CITY'	Text='The World’s Top Places to Move to' Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_AMENITIES_CITY'	Text='The World’s Best Places to Live' Language='en_US' />
+
+
+		<Replace Tag='LOC_SC_RIHLA_LIST_FOOD_TT'		Text='Ranks players by the average [ICON_FOOD] Food surplus in their cities.'	Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_PRODUCTION_TT'	Text='Ranks players by the average amount of [ICON_PRODUCTION] Production generated by their cities.'	Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_GOLD_TT'		Text='Ranks players by the amount of [ICON_GOLD] Gold in their treasuries.'	Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_TECH_TT'		Text='Ranks players by the number of Technologies they have researched.'	Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_CIVICS_TT'		Text='Ranks players by the number of Civics they have unlocked.'	Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_AMENITIES_TT'	Text='Ranks players by the average [ICON_AMENITIES] Amenities in their cities, weighted by [ICON_CITIZEN] Population.'	Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_WONDERS_TT'		Text='Ranks players by the number of Wonders they’ve constructed.'	Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_MILITARY_TT'	Text='Ranks players by their military power.'	Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_FAITH_TURN_TT'	Text='Ranks players by their [ICON_FAITH] Faith production per turn.'	Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_POPULATION_TT'	Text='Ranks players by their total [ICON_CITIZEN] Population.'	Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_GOLD_TURN_TT'	Text='Ranks players by their [ICON_GOLD] Gold production per turn.'	Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_SCIENCE_TURN_TT'	Text='Ranks players by their [ICON_SCIENCE] Science production per turn.'	Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_CULTURE_TURN_TT'	Text='Ranks players by their [ICON_CULTURE] Culture production per turn.'	Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_GREAT_PEOPLE_TT'	Text='Ranks players by the number of [ICON_GREATPERSON] Great People they’ve recruited.'	Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_TRADE_ROUTES_TT'	Text='Ranks players by their [ICON_TRADEROUTE] Trade Route capacity.'	Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_GREAT_WORKS_TT'	Text='Ranks players by the number of [ICON_GREATWORK_LANDSCAPE] Great Works they have.'	Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_WIDE_TT'		Text='Ranks players by number of cities they have.'	Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_TALL_TT'		Text='Ranks players by the average [ICON_CITIZEN] Population of their cities.'	Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_TOURISM_TT'		Text='Ranks players by the amount of [ICON_TOURISM] Tourism the produce.'	Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_FAITH_TT'		Text='Ranks players by the amount of [ICON_FAITH] Faith they have stored.'	Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_DEVELOPED_TT'	Text='Ranks players by the average number of [ICON_DISTRICT] Districts in their cities.'	Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_GREEN_TT'		Text='Ranks players by the amount of Renewable [ICON_POWER] Energy sources they control.'	Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_NAVAL_TT'		Text='Ranks players by the number of naval units they control.'	Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_CAPTURES_TT'	Text='Ranks players by the number of captured cities they control.'	Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_SUZERAINS_TT'	Text='Ranks players by the number of [ICON_ENVOY] City-States they are suzerain of.'	Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_PARKS_TT'		Text='Ranks players by the number of National Parks they have created.'	Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_LUXURIES_TT'	Text='Ranks players by the number of Luxury resources they have access to.'	Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_SCORE_TT'		Text='Ranks players by their [ICON_Glory_Golden_Age] Era Score.'	Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_POLLUTION_TT'	Text='Ranks players by their CO2 emissions.'	Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_GOVERNORS_TT'	Text='Ranks players by the number of [ICON_GOVERNOR] Governor promotions they’ve earned.'	Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_IMPROVED_TT'	Text='Ranks players by the number of improvements within their borders.'	Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_LOYAL_TT'		Text='Ranks players by the average Loyalty of their cities.'	Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_FAVOR_TT'		Text='Ranks players by their Favor production per turn.'	Language='en_US' />
+
+		<Replace Tag='LOC_SC_RIHLA_LIST_TOURISM_CITY_TT'	Text='Ranks cities by [ICON_TOURISM] Tourism output.'	Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_PRODUCTION_CITY_TT'	Text='Ranks cities by [ICON_PRODUCTION] Production output.'	Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_GOLD_CITY_TT'		Text='Ranks cities by [ICON_GOLD] Gold output.'	Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_CULTURE_CITY_TT'	Text='Ranks cities by [ICON_CULTURE] Culture output.'	Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_FOOD_CITY_TT'		Text='Ranks cities by [ICON_FOOD] Food output.'	Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_SCIENCE_CITY_TT'	Text='Ranks cities by [ICON_SCIENCE] Science output.'	Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_FAITH_CITY_TT'		Text='Ranks cities by [ICON_FAITH] Faith output.'	Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_POPULATION_CITY_TT'	Text='Ranks cities by [ICON_CITIZEN] Population.'	Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_POWER_CITY_TT'		Text='Ranks cities by [ICON_POWER] Power output.'	Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_HOUSING_CITY_TT'	Text='Ranks cities by [ICON_HOUSING] Housing surplus, weighted by [ICON_CITIZEN] Population.' Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_AMENITIES_CITY_TT'	Text='Ranks cities by [ICON_AMENITIES] Amenities, weighted by [ICON_CITIZEN] Population.' Language='en_US' />
+
+
+		<Replace Tag='LOC_SC_RIHLA_LIST_FOOD_NUMBER_TT'				Text='Average [ICON_FOOD] Food surplus.'	Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_PRODUCTION_NUMBER_TT'		Text='Average [ICON_PRODUCTION] Production.'	Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_GOLD_NUMBER_TT'				Text='Amount of [ICON_GOLD] Gold in treasury.'	Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_TECH_NUMBER_TT'				Text='Number of Technologies researched.'	Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_CIVICS_NUMBER_TT'			Text='Number of Civics they unlocked.'	Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_AMENITIES_NUMBER_TT'		Text='Average number of [ICON_AMENITIES] Amenities multiplied by [ICON_CITIZEN] Population.'	Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_WONDERS_NUMBER_TT'			Text='Number of Wonders constructed.'	Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_MILITARY_NUMBER_TT'			Text='Military power.'	Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_FAITH_TURN_NUMBER_TT'		Text='[ICON_FAITH] Faith production per turn.'	Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_POPULATION_NUMBER_TT'		Text='Total [ICON_CITIZEN] Population.'	Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_GOLD_TURN_NUMBER_TT'		Text='[ICON_GOLD] Gold production per turn.'	Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_SCIENCE_TURN_NUMBER_TT'		Text='[ICON_SCIENCE] Science production per turn.'	Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_CULTURE_TURN_NUMBER_TT'		Text='[ICON_CULTURE] Culture production per turn.'	Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_GREAT_PEOPLE_NUMBER_TT'		Text='Number of [ICON_GREATPERSON] Great People recruited.'	Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_TRADE_ROUTES_NUMBER_TT'		Text='[ICON_TRADEROUTE] Trade Route capacity.'	Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_GREAT_WORKS_NUMBER_TT'		Text='Number of [ICON_GREATWORK_LANDSCAPE] Great Works owned.'	Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_WIDE_NUMBER_TT'				Text='Number of cities.'	Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_TALL_NUMBER_TT'				Text='Average city [ICON_CITIZEN] Population.'	Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_TOURISM_NUMBER_TT'			Text='Amount of [ICON_TOURISM] Tourism produced.'	Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_FAITH_NUMBER_TT'			Text='Amount of [ICON_FAITH] Faith stored.'	Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_DEVELOPED_NUMBER_TT'		Text='Average number of [ICON_DISTRICT] Districts per city.'	Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_GREEN_NUMBER_TT'			Text='Number of Renewable [ICON_POWER] Energy sources.'	Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_NAVAL_NUMBER_TT'			Text='Number of naval units.'	Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_CAPTURES_NUMBER_TT'			Text='Number of captured cities.'	Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_SUZERAINS_NUMBER_TT'		Text='Number of [ICON_ENVOY] City-States suzerained.'	Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_PARKS_NUMBER_TT'			Text='Number of National Park tiles.'	Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_LUXURIES_NUMBER_TT'			Text='Number of accessible Luxury resources.'	Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_SCORE_NUMBER_TT'			Text='[ICON_Glory_Golden_Age] Era Score.'	Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_POLLUTION_NUMBER_TT'		Text='CO2 emissions.'	Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_GOVERNORS_NUMBER_TT'		Text='Number of [ICON_GOVERNOR] Governor promotions earned.'	Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_IMPROVED_NUMBER_TT'			Text='Number of improvements.'	Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_LOYAL_NUMBER_TT'			Text='Average Loyalty of cities.'	Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_FAVOR_NUMBER_TT'			Text='Favor production.'	Language='en_US' />
+
+		<Replace Tag='LOC_SC_RIHLA_LIST_TOURISM_CITY_NUMBER_TT'		Text='[ICON_TOURISM] Tourism output.'	Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_PRODUCTION_CITY_NUMBER_TT'	Text='[ICON_PRODUCTION] Production output.'	Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_GOLD_CITY_NUMBER_TT'		Text='[ICON_GOLD] Gold output.'	Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_CULTURE_CITY_NUMBER_TT'		Text='[ICON_CULTURE] Culture output.'	Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_FOOD_CITY_NUMBER_TT'		Text='[ICON_FOOD] Food output.'	Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_SCIENCE_CITY_NUMBER_TT'		Text='[ICON_SCIENCE] Science output.'	Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_FAITH_CITY_NUMBER_TT'		Text='[ICON_FAITH] Faith output.'	Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_POPULATION_CITY_NUMBER_TT'	Text='[ICON_CITIZEN] Population.'	Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_POWER_CITY_NUMBER_TT'		Text='[ICON_POWER] Power output.'	Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_HOUSING_CITY_NUMBER_TT'		Text='[ICON_HOUSING] Housing surplus multiplied by [ICON_CITIZEN] Population.' Language='en_US' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_AMENITIES_CITY_NUMBER_TT'	Text='[ICON_AMENITIES] Amenities multiplied by [ICON_CITIZEN] Population.' Language='en_US' />
+
+
+		<!-- German Text by Junky-->
+		
+		<Replace Tag='LOC_SC_RIHLA_TITLE_BANNER'   Text='Weltweite Ranglisten'   Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_YOU'   Text='(Ihr)'   Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_UNMET_CIV'   Text='Unbekannte Zivilisation'   Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_UNMET_CITY'   Text='Unbekannte Stadt'   Language='de_DE' />
+
+		<Replace Tag='LOC_SC_RIHLA_MALE'   Text=' hat sein größtes Werk vollendet, die Liste über'   Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_FEMALE'   Text=' hat ihr größtes Werk vollendet, die Liste über'   Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_NEUTRAL_OUTSIDE'   Text=' hat uns Informationen zur Verfügung gestellt, eine Sammlung über'   Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_NEUTRAL'   Text=' hat ihre größtes Werk vollendet, die Liste über'   Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_HAS_FOUND'   Text=' hat festgestellt, dass dies die offizielle Liste über'   Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_PLURAL'   Text=' haben ihr bisher größtes Werk vollendet, eine Liste von'   Language='de_DE' />
+
+		<Replace Tag='LOC_SC_RIHLA_ORACLE'   Text=', erhält durch die Gunst der Götter, eine Rangfolge'   Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_RUMORS'   Text=' schwirren umher und erzählen, dass sie dazu gehören'   Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_LEGENDS'   Text=' erzählen von einem Propheten, dem eine Rangordnung offenbart wurde'   Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_AI'   Text=' hat herausgefunden, dass die Frage nach dem Leben, dem Universum und dem ganzen Rest, 42 ist. Dabei wurde auch eine Liste erstellt'   Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_MEME'   Text=' verbreitet sich in den sozialen Medien und enthält ein Rangliste'   Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_SATELLITES'   Text=' hat festgestellt, dass dies die'   Language='de_DE' />
+
+		<Replace Tag='LOC_SC_RIHLA_ANCIENT_1'   Text='Unsere fleißigen Schreiber'   Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_ANCIENT_2'   Text='Ein einsamer Reisender'   Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_ANCIENT_3'   Text='Ein berühmtes Orakel'   Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_ANCIENT_4'   Text='Ein umherziehender Kaufmann'   Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_ANCIENT_5'   Text='Eine Söldnerbande'   Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_ANCIENT_6'   Text='Eine Gruppe von Vertriebenen'   Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_ANCIENT_7'   Text='Gerüchte'   Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_ANCIENT_8'   Text='Unsere bedeutendsten Weisen'   Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_ANCIENT_9'   Text='Ein Nomadenstamm'   Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_ANCIENT_10'   Text='Sagen'   Language='de_DE' />
+
+		<Replace Tag='LOC_SC_RIHLA_CLASSICAL_1'   Text='Pausanias'   Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_CLASSICAL_2'   Text='Dionysius Periegetes'   Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_CLASSICAL_3'   Text='Egeria'   Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_CLASSICAL_4'   Text='Cosmas Indicopleustes'   Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_CLASSICAL_5'   Text='Strabo'   Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_CLASSICAL_6'   Text='Pytheas'   Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_CLASSICAL_7'   Text='Scylax of Caryanda'   Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_CLASSICAL_8'   Text='Herodotus'   Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_CLASSICAL_9'   Text='Pliny the Elder'   Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_CLASSICAL_10'   Text='Faxian'   Language='de_DE' />
+
+		<Replace Tag='LOC_SC_RIHLA_MEDIEVAL_1'   Text='Ibn Battuta'   Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_MEDIEVAL_10'   Text='Afanasy Nikitin'   Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_MEDIEVAL_2'   Text='Benjamin of Tudela'   Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_MEDIEVAL_3'   Text='Marco Polo'   Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_MEDIEVAL_4'   Text='Nasir Khusraw'   Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_MEDIEVAL_5'   Text='Xuanzang'   Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_MEDIEVAL_6'   Text='Lady Sarashina'   Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_MEDIEVAL_7'   Text='Zhou Daguan'   Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_MEDIEVAL_8'   Text='Ghiyath al-Din Niqqash'   Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_MEDIEVAL_9'   Text='Du Huan'   Language='de_DE' />
+
+		<Replace Tag='LOC_SC_RIHLA_RENAISSANCE_1'   Text='Rose de Freycinet'   Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_RENAISSANCE_2'   Text='Peter Mundy'   Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_RENAISSANCE_3'   Text='Jean-Baptiste Tavernier'   Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_RENAISSANCE_4'   Text='Ludovico di Varthema'   Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_RENAISSANCE_5'   Text='Fernão Mendes Pinto'   Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_RENAISSANCE_6'   Text='Choe Bu'   Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_RENAISSANCE_7'   Text='Evliya Çelebi'   Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_RENAISSANCE_8'   Text='Leo Africanus'   Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_RENAISSANCE_9'   Text='Vasileios Vatatzes'   Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_RENAISSANCE_10'   Text='Xu Xiake'   Language='de_DE' />
+
+		<Replace Tag='LOC_SC_RIHLA_INDUSTRIAL_1'   Text='Vishnubhat Godse'   Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_INDUSTRIAL_2'   Text='Nellie Bly'   Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_INDUSTRIAL_3'   Text='Ida Laura Pfeiffer'   Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_INDUSTRIAL_4'   Text='Bojidar Karageorgevitch'   Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_INDUSTRIAL_5'   Text='Frances Erskine Inglis'   Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_INDUSTRIAL_6'   Text='Alexander von Humboldt'   Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_INDUSTRIAL_7'   Text='Rifa’a al-Tahtawi'   Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_INDUSTRIAL_8'   Text='Mary Kingsley'   Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_INDUSTRIAL_9'   Text='Xue Fucheng'   Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_INDUSTRIAL_10'   Text='Ilarione da Bergamo'   Language='de_DE' />
+
+		<Replace Tag='LOC_SC_RIHLA_MODERN_1'   Text='Lyuba Kutincheva'   Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_MODERN_2'   Text='Ethel Brilliana Tweedie'   Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_MODERN_3'   Text='Robert Byron'   Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_MODERN_4'   Text='Rebecca West'   Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_MODERN_5'   Text='Alma Karlin'   Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_MODERN_6'   Text='Evelyn Waugh'   Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_MODERN_7'   Text='Richard Halliburton'   Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_MODERN_8'   Text='Gertrude Bell'   Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_MODERN_9'   Text='H. V. Morton'   Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_MODERN_10'   Text='Jelena Dimitrijević'   Language='de_DE' />
+
+		<Replace Tag='LOC_SC_RIHLA_ATOMIC_1'   Text='Barbara Toy'   Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_ATOMIC_2'   Text='Wilfred Thesiger'   Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_ATOMIC_3'   Text='Bruce Chatwin'   Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_ATOMIC_4'   Text='Paul Theroux'   Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_ATOMIC_5'   Text='Jan Morris'   Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_ATOMIC_6'   Text='Chiang Yee'   Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_ATOMIC_7'   Text='V. S. Naipaul'   Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_ATOMIC_8'   Text='Eric Newby'   Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_ATOMIC_9'   Text='Rahul Sankrityayan'   Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_ATOMIC_10'   Text='Freya Stark'   Language='de_DE' />
+
+		<Replace Tag='LOC_SC_RIHLA_INFORMATION_1'   Text='Rick Steves'   Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_INFORMATION_2'   Text='Elizabeth Gilbert'   Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_INFORMATION_3'   Text='Robin Esrock'   Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_INFORMATION_4'   Text='Mikirō Sasaki'   Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_INFORMATION_5'   Text='Bill Bryson'   Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_INFORMATION_6'   Text='Rory MacLean'   Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_INFORMATION_7'   Text='Tahir Shah'   Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_INFORMATION_8'   Text='Josef Strauß'   Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_INFORMATION_9'   Text='Rolf Potts'   Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_INFORMATION_10'   Text='Einsamer Planet'   Language='de_DE' />
+
+		<Replace Tag='LOC_SC_RIHLA_FUTURE_1'   Text='Eine künstlerische Intelligenz'   Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_FUTURE_2'   Text='Eine neue Untersuchung'   Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_FUTURE_3'   Text='Umfangreiche Datenanalyse'   Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_FUTURE_4'   Text='Eine bekannte NRO (NichtRegierungsOrganisation)'   Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_FUTURE_5'   Text='Ein Reiseblog'   Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_FUTURE_6'   Text='Eine verbreitete Darstellung'   Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_FUTURE_7'   Text='Wissenschaftler'   Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_FUTURE_8'   Text='Der Geheimdienst'   Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_FUTURE_9'   Text='Unsere Spionagesatelliten'   Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_FUTURE_10'   Text='Ein neuer Regierungsbericht'   Language='de_DE' />
+
+		<Replace Tag='LOC_SC_RIHLA_LIST_FOOD'		Text='Die wohlgenährtesten Menschen der Welt'	Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_PRODUCTION'	Text='Die fleißigsten Völker der Welt'	Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_GOLD'		Text='Reiche Nationen mit prall gefüllten Schatzkammern'	Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_TECH'		Text='Die fortgeschrittensten Nationen'	Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_CIVICS'		Text='Kulturell fortschrittlichste Völker'	Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_AMENITIES'	Text='Die glücklichsten Menschen auf Erden'	Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_WONDERS'	Text='Architekten der großen Weltwunder'	Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_MILITARY'	Text='Nationen mit den spitzesten Stöcken'	Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_FAITH_TURN'	Text='Gebete tiefgläubiger Völker'	Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_POPULATION'	Text='Länder mit riesiger Bevölkerungsmasse'	Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_GOLD_TURN'	Text='Goldschürfernationen'	Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_SCIENCE_TURN'	Text='Länder mit Innovation und Erfindergeist'	Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_CULTURE_TURN'	Text='Kulturschaffende Völker der Welt'	Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_GREAT_PEOPLE'	Text='Nationen mit großartigen Persönlichkeiten'	Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_TRADE_ROUTES'	Text='Handelsnationen der Welt'	Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_GREAT_WORKS'	Text='Weltbekannte Werke der Kultur'	Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_WIDE'		Text='Nationen mit den größten Landmassen in ihrem Besitz'	Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_TALL'		Text='Zivilisationen mit den größten Städten der Welt'	Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_TOURISM'	Text='Touristisch anziehendste Orte der Welt'	Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_FAITH'		Text='Menschen, denen ihre Götter am nächsten sind'	Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_DEVELOPED'	Text='Die strebsamsten Baumeister der Welt'	Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_GREEN'		Text='Zivilisationen mit ökolgischer Energiegewinnung'	Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_NAVAL'		Text='Glorreiche Seemächte'	Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_CAPTURES'	Text='Eroberer der Welt'	Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_SUZERAINS'	Text='Die einflussreichsten Patriarche'	Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_PARKS'		Text='Nationen, die unberührte Natur schützen'	Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_LUXURIES'	Text='Völker mit vaiantenreichen Luxus'	Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_SCORE'		Text='Beeindruckende Mächte der Welt'	Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_POLLUTION'	Text='Die schmutzigsten Völker der Welt'	Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_GOVERNORS'	Text='Völker mit den erfahrendsten Stadtverwaltern'	Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_IMPROVED'	Text='Effektive Landarbeiter und -gestalter'	Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_LOYAL'		Text='Die treuesten Menschen der Welt'	Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_FAVOR'		Text='Die diplomatischsten Nationen'	Language='de_DE' />
+
+		<Replace Tag='LOC_SC_RIHLA_LIST_TOURISM_CITY'	Text='Die anziehendsten Reiseziele'	Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_PRODUCTION_CITY'	Text='Die industriellen Schlagadern'	Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_GOLD_CITY'		Text='Die größten Finanzzentren der Welt'	Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_CULTURE_CITY'	Text='Die atemberaubendsten Kulturzentren'	Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_FOOD_CITY'		Text='Die wichtigsten Nahrungsquellen der Welt'	Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_SCIENCE_CITY'	Text='Die weltweit führenden Forschungszentren'	Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_FAITH_CITY'		Text='Die heiligsten Städte der Welt'	Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_POPULATION_CITY'	Text='Die größten Metropolen der Welt'	Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_POWER_CITY'		Text='Die stärksten Elektrizitätslieferanten'	Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_HOUSING_CITY'	Text='Die weltbesten Orte, an die man umziehen kann' Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_AMENITIES_CITY'	Text='Die besten Orte der Welt zum Leben' Language='de_DE' />
+
+
+		<Replace Tag='LOC_SC_RIHLA_LIST_FOOD_TT'		Text='Ordnet Spieler nach durchschnittlichem [ICON_FOOD] Nahrungsüberschuss in dessen Städten.'	Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_PRODUCTION_TT'	Text='Ordnet Spieler nach durchschnittlich erzeugtem [ICON_PRODUCTION] Produktionsertrag in dessen Städten.'	Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_GOLD_TT'		Text='Ordnet Spieler nach Höhe des [ICON_GOLD] Goldbestands in der Schatzkammer.'	Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_TECH_TT'		Text='Ordnet Spieler nach der Anzahl der erforschten Technologien.'	Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_CIVICS_TT'		Text='Ordnet Spieler nach der Anzahl der freigeschalteten Ausrichtungen.'	Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_AMENITIES_TT'	Text='Ordnet Spieler nach der durchschnittlichen Anzahl [ICON_AMENITIES] Annehmlichkeiten in den Städten, gewichtet nach der [ICON_CITIZEN] Bevölkerung.'	Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_WONDERS_TT'		Text='Ordnet Spieler anhand der Anzahl der errichteten Weltwunder.'	Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_MILITARY_TT'	Text='Ordnet Spieler nach Militärstärke.'	Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_FAITH_TURN_TT'	Text='Ordnet Spieler nach ihrem [ICON_FAITH] Glaubensertrag pro Runde.'	Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_POPULATION_TT'	Text='Ordnet Spieler nach ihrer [ICON_CITIZEN] Gesamtbevölkerung.'	Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_GOLD_TURN_TT'	Text='Ordnet Spieler nach ihrem [ICON_GOLD] Goldertrag pro Runde.'	Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_SCIENCE_TURN_TT'	Text='Ordnet Spieler nach ihrem [ICON_SCIENCE] Wissenschaftsertrag pro Runde.'	Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_CULTURE_TURN_TT'	Text='Ordnet Spieler nach ihrem [ICON_CULTURE] Kulturertrag pro Runde.'	Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_GREAT_PEOPLE_TT'	Text='Ordnet Spieler nach der Anzahl der erhaltenen [ICON_GREATPERSON] Großen Persönlichkeiten.'	Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_TRADE_ROUTES_TT'	Text='Ordnet Spieler nach ihrer [ICON_TRADEROUTE] Handeslwegkapazität.'	Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_GREAT_WORKS_TT'	Text='Ordnet Spieler nach der im Besitz befindlichen [ICON_GREATWORK_LANDSCAPE] Großen Werke.'	Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_WIDE_TT'		Text='Ordnet Spieler nach Anzahl der im Besitz befindlichen Städte.'	Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_TALL_TT'		Text='Ordnet Spieler nach der durchschnittlichen [ICON_CITIZEN] Stadtbevölkerung.'	Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_TOURISM_TT'		Text='Ordnet Spieler nach der Höhe des [ICON_TOURISM] Tourismusertrags.'	Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_FAITH_TT'		Text='Ordnet Spieler nach der Höhe des angehäuften [ICON_FAITH] Glaubens.'	Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_DEVELOPED_TT'	Text='Ordnet Spieler nach der durchschnittlichen Anzahl der [ICON_DISTRICT] Bezirke in ihren Städten.'	Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_GREEN_TT'		Text='Ordnet Spieler nach der Anzahl der unter ihrer Kontrolle stehenden Quellen von [ICON_POWER] erneuerbaren Energien.'	Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_NAVAL_TT'		Text='Ordnet Spieler nach der Anzahl der kontrollierten Marineeinheiten.'	Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_CAPTURES_TT'	Text='Ordnet Spieler nach der Anzahl der unter ihrer Kontrolle stehenden eingenommenen Städte.'	Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_SUZERAINS_TT'	Text='Ordnet Spieler nach der Anzahl der unter ihrer Kontrolle stehenden [ICON_ENVOY] Stadtstaatsprotektorate.'	Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_PARKS_TT'		Text='Ordnet Spieler nach der Anzahl der erschaffenen Nationalparks.'	Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_LUXURIES_TT'	Text='Ordnet Spieler nach der Anzahl der verfügbaren Luxusressourcen.'	Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_SCORE_TT'		Text='Ordnet Spieler nach [ICON_Glory_Golden_Age] Zeitalterpunkten.'	Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_POLLUTION_TT'	Text='Ordnet Spieler nach CO2 Emissionsausstoß.'	Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_GOVERNORS_TT'	Text='Ordnet Spieler nach der Anzahl der erhaltenen [ICON_GOVERNOR] Gouverneurstitel.'	Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_IMPROVED_TT'	Text='Ordnet Spieler nach der Anzahl der Geländefeldverbesserungen innerhalb ihrer Grenzen.'	Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_LOYAL_TT'		Text='Ordnet Spieler nach der durchschnittlichen Loyalität ihrer Städte.'	Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_FAVOR_TT'		Text='Ordnet Spieler nach ihrem Gunsterzeugung pro Runde.'	Language='de_DE' />
+
+		<Replace Tag='LOC_SC_RIHLA_LIST_TOURISM_CITY_TT'	Text='Ordnet Städte nach [ICON_TOURISM] Tourismusertrag.'	Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_PRODUCTION_CITY_TT'	Text='Ordnet Städte nach [ICON_PRODUCTION] Produktionsertrag.'	Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_GOLD_CITY_TT'		Text='Ordnet Städte nach [ICON_GOLD] Goldertrag.'	Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_CULTURE_CITY_TT'	Text='Ordnet Städte nach [ICON_CULTURE] Kulturertrag.'	Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_FOOD_CITY_TT'		Text='Ordnet Städte nach [ICON_FOOD] Nahrungsertrag.'	Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_SCIENCE_CITY_TT'	Text='Ordnet Städte nach [ICON_SCIENCE] Wissenschaftsertrag.'	Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_FAITH_CITY_TT'		Text='Ordnet Städte nach [ICON_FAITH] Glaubensertrag.'	Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_POPULATION_CITY_TT'	Text='Ordnet Städte nach [ICON_CITIZEN] Bevölkerung.'	Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_POWER_CITY_TT'		Text='Ordnet Städte nach [ICON_POWER] Energieertrag.'	Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_HOUSING_CITY_TT'	Text='Ordnet Städte nach [ICON_HOUSING] freiem Wohnraum, gewichtet nach [ICON_CITIZEN] Bevölkerung.' Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_AMENITIES_CITY_TT'	Text='Ordnet Städte nach [ICON_AMENITIES] Annehmlichkeiten, gewichtet nach [ICON_CITIZEN] Bevölkerung.' Language='de_DE' />
+
+
+		<Replace Tag='LOC_SC_RIHLA_LIST_FOOD_NUMBER_TT'				Text='Durchschnittlicher [ICON_FOOD] Nahrungsüberschuss.'	Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_PRODUCTION_NUMBER_TT'		Text='Durchschnittliche [ICON_PRODUCTION] Produktion.'	Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_GOLD_NUMBER_TT'				Text='Höhe des [ICON_GOLD] Goldbestands der Schatzkammer.'	Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_TECH_NUMBER_TT'				Text='Anzahl der erforschten Technologien.'	Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_CIVICS_NUMBER_TT'			Text='Anzahl der freigeschalteten Ausrichtungen.'	Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_AMENITIES_NUMBER_TT'		Text='Durchschnittliche Anzahl der [ICON_AMENITIES] Annehmlichkeiten multipliziert mit der [ICON_CITIZEN] Bevölkerung.'	Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_WONDERS_NUMBER_TT'			Text='Anzahl der errichteten Weltwunder.'	Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_MILITARY_NUMBER_TT'			Text='Militärstärke.'	Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_FAITH_TURN_NUMBER_TT'		Text='[ICON_FAITH] Glaubensertrag pro Runde.'	Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_POPULATION_NUMBER_TT'		Text='[ICON_CITIZEN] Gesamtbevölkerung.'	Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_GOLD_TURN_NUMBER_TT'		Text='[ICON_GOLD] Goldertrag pro Runde.'	Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_SCIENCE_TURN_NUMBER_TT'		Text='[ICON_SCIENCE] Wissenschaftsertrag pro Runde.'	Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_CULTURE_TURN_NUMBER_TT'		Text='[ICON_CULTURE] Kulturertrag pro Runde.'	Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_GREAT_PEOPLE_NUMBER_TT'		Text='Anzahl der erhaltenen [ICON_GREATPERSON] Großen Persönlichkeiten.'	Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_TRADE_ROUTES_NUMBER_TT'		Text='[ICON_TRADEROUTE] Handeslwegkapazität.'	Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_GREAT_WORKS_NUMBER_TT'		Text='Anzahl der im Besitz befindlichen [ICON_GREATWORK_LANDSCAPE] Großen Werke.'	Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_WIDE_NUMBER_TT'				Text='Anzahl der Städte.'	Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_TALL_NUMBER_TT'				Text='Durchschnittliche [ICON_CITIZEN] Stadtbevölkerung.'	Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_TOURISM_NUMBER_TT'			Text='Höhe des [ICON_TOURISM] Tourismusertrags.'	Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_FAITH_NUMBER_TT'			Text='Höhe des angehäuften [ICON_FAITH] Glaubens.'	Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_DEVELOPED_NUMBER_TT'		Text='Durchschnittliche Anzahl der [ICON_DISTRICT] Bezirke pro Stadt.'	Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_GREEN_NUMBER_TT'			Text='Anzahl der Quellen von [ICON_POWER] erneuerbaren Energien.'	Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_NAVAL_NUMBER_TT'			Text='Anzahl der Marineeinheiten.'	Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_CAPTURES_NUMBER_TT'			Text='Anzahl der eingenommenen Städte.'	Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_SUZERAINS_NUMBER_TT'		Text='Anzahl der [ICON_ENVOY] Stadtstaatprotektorate.'	Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_PARKS_NUMBER_TT'			Text='Anzahl der Nationalpark-Felder.'	Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_LUXURIES_NUMBER_TT'			Text='Anzahl der verfügbaren Luxusressourcen.'	Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_SCORE_NUMBER_TT'			Text='[ICON_Glory_Golden_Age] Zeitalterpunkte.'	Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_POLLUTION_NUMBER_TT'		Text='CO2 Emissionen.'	Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_GOVERNORS_NUMBER_TT'		Text='Anzahl der erhaltenen [ICON_GOVERNOR] Gouverneurstitel.'	Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_IMPROVED_NUMBER_TT'			Text='Anzahl der Geländefeldverbesserungen.'	Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_LOYAL_NUMBER_TT'			Text='Durchschnittliche Loyalität der Städte.'	Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_FAVOR_NUMBER_TT'			Text='Gunsterzeugung.'	Language='de_DE' />
+
+		<Replace Tag='LOC_SC_RIHLA_LIST_TOURISM_CITY_NUMBER_TT'		Text='[ICON_TOURISM] Tourismusertrag.'	Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_PRODUCTION_CITY_NUMBER_TT'	Text='[ICON_PRODUCTION] Produktionsertrag.'	Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_GOLD_CITY_NUMBER_TT'		Text='[ICON_GOLD] Goldertrag.'	Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_CULTURE_CITY_NUMBER_TT'		Text='[ICON_CULTURE] Kulturertrag.'	Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_FOOD_CITY_NUMBER_TT'		Text='[ICON_FOOD] Nahrungsertrag.'	Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_SCIENCE_CITY_NUMBER_TT'		Text='[ICON_SCIENCE] Wissenschaftsertrag.'	Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_FAITH_CITY_NUMBER_TT'		Text='[ICON_FAITH] Glaubensertrag.'	Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_POPULATION_CITY_NUMBER_TT'	Text='[ICON_CITIZEN] Bevölkerung.'	Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_POWER_CITY_NUMBER_TT'		Text='[ICON_POWER] Energieertrag.'	Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_HOUSING_CITY_NUMBER_TT'		Text='[ICON_HOUSING] freiem Wohnraum multipliziert mit der [ICON_CITIZEN] Bevölkerung.' Language='de_DE' />
+		<Replace Tag='LOC_SC_RIHLA_LIST_AMENITIES_CITY_NUMBER_TT'	Text='[ICON_AMENITIES] Annehmlichkeiten multipliziert mit der[ICON_CITIZEN] Bevölkerung.' Language='de_DE' />
+	</LocalizedText>
+</GameData>
