@@ -18,9 +18,14 @@ INSERT INTO Types
 --===============================================================================================================================================================================--
 
 		INSERT INTO Districts
-			(	DistrictType,				Name,									Description,									Coast,		AdjacentToLand,		PrereqTech,					NoAdjacentCity,		ZOC,		HitPoints,		CaptureRemovesBuildings,		PlunderType,		PlunderAmount,	AdvisorType,		Cost,	CostProgressionModel,						CostProgressionParam1,	OnePerCity,	RequiresPlacement,	RequiresPopulation,		FreeEmbark,		Aqueduct,	CityCenter,			InternalOnly,		CaptureRemovesCityDefenses,	MilitaryDomain,		Appeal, 	Housing,	Entertainment,		Maintenance,		CitizenSlots,			CityStrengthModifier,		CaptureRemovesDistrict,		MaxPerPlayer				)	VALUES
+			(	DistrictType,				Name,									Description,									Coast,		AdjacentToLand,		PrereqTech,					NoAdjacentCity,		CanAttack,			ZOC,		HitPoints,		CaptureRemovesBuildings,		PlunderType,		PlunderAmount,	AdvisorType,		Cost,	CostProgressionModel,						CostProgressionParam1,	OnePerCity,	RequiresPlacement,	RequiresPopulation,		FreeEmbark,		Aqueduct,	CityCenter,			InternalOnly,		CaptureRemovesCityDefenses,	MilitaryDomain,		Appeal, 	Housing,	Entertainment,		Maintenance,		CitizenSlots,			CityStrengthModifier,		CaptureRemovesDistrict,		MaxPerPlayer				)	VALUES
 
-			(	'DISTRICT_ARSENAL',			'LOC_DISTRICT_ARSENAL_NAME',			'LOC_DISTRICT_ARSENAL_DESCRIPTION',				'1',		'1',				'TECH_SHIPBUILDING',		'1',				'1',		'100',			'1',							'NO_PLUNDER',		'0',			'ADVISOR_CONQUEST',	'54',	'COST_PROGRESSION_NUM_UNDER_AVG_PLUS_TECH',	'40',					'1',		'1',				'1',					'1',			'0',		'0',				'0',				'0',						'DOMAIN_SEA',		'-1',		'0',		'0',				'1',				NULL,					'2',						'0',						'-1'						);
+			(	'DISTRICT_ARSENAL',			'LOC_DISTRICT_ARSENAL_NAME',			'LOC_DISTRICT_ARSENAL_DESCRIPTION',				'1',		'1',				'TECH_SHIPBUILDING',		'1',				'1',				'1',		'100',			'1',							'NO_PLUNDER',		'0',			'ADVISOR_CONQUEST',	'54',	'COST_PROGRESSION_NUM_UNDER_AVG_PLUS_TECH',	'40',					'1',		'1',				'1',					'1',			'0',		'0',				'0',				'0',						'DOMAIN_SEA',		'-1',		'0',		'0',				'1',				NULL,					'2',						'0',						'-1'						);
+
+		INSERT INTO Districts_XP2
+			(	DistrictType,      				 AttackRange			)	VALUES
+	
+			(	'DISTRICT_ARSENAL',				'2'						);
 
 --===========================================================================================================================================================================--					
 		INSERT INTO District_TradeRouteYields
@@ -58,8 +63,8 @@ INSERT INTO Types
 			(	BuildingType,       				Name,       										PrereqTech,					PrereqCivic,   					 Cost,      	 MaxPlayerInstances,    PrereqDistrict,       			Description,										Maintenance,    CitizenSlots,		Housing,   		Entertainment,			PurchaseYield,		InternalOnly,	    AdvisorType      			)	VALUES
 
 			(	'BUILDING_ARS_WAREHOUSE',			'LOC_BUILDING_ARS_WAREHOUSE_NAME',					'TECH_SHIPBUILDING',		NULL,							'120',			'-1',					'DISTRICT_ARSENAL', 			'LOC_BUILDING_ARS_WAREHOUSE_DESCRIPTION',			'1',			'1',				'1',			'0',					'YIELD_GOLD',		'0',				'ADVISOR_CONQUEST'			),
-			(	'BUILDING_ARS_DRYDOCK',				'LOC_BUILDING_ARS_DRYDOCK_NAME',					'TECH_CARTOGRAPHY',			NULL,							'290',			'-1',					'DISTRICT_ARSENAL', 			'LOC_BUILDING_ARS_DRYDOCK_DESCRIPTION',				'1',			'1',				'0',			'0',					'YIELD_GOLD',		'0',				'ADVISOR_CONQUEST'			),
-			(	'BUILDING_ARS_NAVALACADEMY',		'LOC_BUILDING_ARS_NAVALACADEMY_NAME',				'TECH_STEAM_POWER',			NULL,							'330',			'-1',					'DISTRICT_ARSENAL', 			'LOC_BUILDING_ARS_NAVALACADEMY_DESCRIPTION',		'1',			'1',				'1',			'0',					'YIELD_GOLD',		'0',				'ADVISOR_CONQUEST'			);
+			(	'BUILDING_ARS_DRYDOCK',				'LOC_BUILDING_ARS_DRYDOCK_NAME',					'TECH_CARTOGRAPHY',			NULL,							'290',			'-1',					'DISTRICT_ARSENAL', 			'LOC_BUILDING_ARS_DRYDOCK_DESCRIPTION',				'2',			'1',				'0',			'0',					'YIELD_GOLD',		'0',				'ADVISOR_CONQUEST'			),
+			(	'BUILDING_ARS_NAVALACADEMY',		'LOC_BUILDING_ARS_NAVALACADEMY_NAME',				'TECH_STEAM_POWER',			NULL,							'330',			'-1',					'DISTRICT_ARSENAL', 			'LOC_BUILDING_ARS_NAVALACADEMY_DESCRIPTION',		'2',			'1',				'1',			'0',					'YIELD_GOLD',		'0',				'ADVISOR_CONQUEST'			);
 
 --===========================================================================================================================================================================--		
 /*	
@@ -161,3 +166,15 @@ INSERT INTO Types
 			(	'ARS_DRYDOCK_ADJACENT_CONDITIONS',					'REQUIRES_PLOT_HAS_COAST'					),
 			(	'ARS_DRYDOCK_ADJACENT_CONDITIONS',					'REQUIRES_PLOT_HAS_NO_IMPROVEMENT'			);			
  
+
+ --===========================================================================================================================================================================--	
+
+		INSERT INTO CivilopediaPageChapterParagraphs
+			(	SectionId,								PageId,								ChapterId,				Paragraph,									SortIndex			)	VALUES
+
+			(	'DISTRICTS',							'DISTRICT_ARSENAL',					'HISTORY',				'LOC_PEDIA_DISTRICT_ARSENAL_1',				'1'					),
+			(	'BUILDINGS',							'BUILDING_ARS_WAREHOUSE',			'HISTORY',				'LOC_PEDIA_BUILDING_ARS_WAREHOUSE_1',		'1'					),
+			(	'BUILDINGS',							'BUILDING_ARS_DRYDOCK',				'HISTORY',				'LOC_PEDIA_BUILDING_ARS_DRYDOCK_1',			'1'					),
+			(	'BUILDINGS',							'BUILDING_ARS_NAVALACADEMY',		'HISTORY',				'LOC_PEDIA_BUILDING_ARS_NAVALACADEMY_1',	'1'					);
+
+--===========================================================================================================================================================================--	

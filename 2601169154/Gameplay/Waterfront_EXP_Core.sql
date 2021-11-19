@@ -67,7 +67,7 @@ INSERT INTO Types
 			(	BuildingType,       				Name,       										PrereqTech,					PrereqCivic,   					 Cost,      	 MaxPlayerInstances,    PrereqDistrict,       			Description,										Maintenance,    CitizenSlots,		Housing,   		Entertainment,			PurchaseYield,		InternalOnly,	    AdvisorType      			)	VALUES
 
 			(	'BUILDING_WTR_BREAKWATER',			'LOC_BUILDING_WTR_BREAKWATER_NAME',					NULL,						'CIVIC_NAVAL_TRADITION',		'195',			'-1',					'DISTRICT_WATERFRONT', 			'LOC_BUILDING_WTR_BREAKWATER_DESCRIPTION',			'1',			'1',				'2',			'0',					'YIELD_GOLD',		'0',				'ADVISOR_GENERIC'			),
-			(	'BUILDING_WTR_BOARDWALK',			'LOC_BUILDING_WTR_BOARDWALK_NAME',					NULL,						'CIVIC_OPERA_BALLET',			'330',			'-1',					'DISTRICT_WATERFRONT', 			'LOC_BUILDING_WTR_BOARDWALK_DESCRIPTION',			'1',			'1',				'0',			'0',					'YIELD_GOLD',		'0',				'ADVISOR_GENERIC'			);
+			(	'BUILDING_WTR_BOARDWALK',			'LOC_BUILDING_WTR_BOARDWALK_NAME',					NULL,						'CIVIC_OPERA_BALLET',			'330',			'-1',					'DISTRICT_WATERFRONT', 			'LOC_BUILDING_WTR_BOARDWALK_DESCRIPTION',			'3',			'1',				'0',			'0',					'YIELD_GOLD',		'0',				'ADVISOR_GENERIC'			);
 
 --===========================================================================================================================================================================--		
 		INSERT INTO Building_CitizenYieldChanges
@@ -100,16 +100,16 @@ INSERT INTO Types
 	
 --===========================================================================================================================================================================--				
 		INSERT INTO Modifiers 
-			(	ModifierId,												ModifierType,									 				RunOnce,	Permanent,	OwnerRequirementSetId,		OwnerStackLimit,			SubjectStackLimit,				SubjectRequirementSetId							)	VALUES
+			(	ModifierId,												ModifierType,									 					RunOnce,	Permanent,	OwnerRequirementSetId,		OwnerStackLimit,			SubjectStackLimit,				SubjectRequirementSetId							)	VALUES
 		
-			(	'WTR_ADJACENT_CITYCENTER_AMENITY',						'MODIFIER_PLAYER_DISTRICT_ADJUST_DISTRICT_AMENITY',				 0,			0,			NULL,						NULL,						NULL,							NULL											),
+			(	'WTR_ADJACENT_CITYCENTER_AMENITY',						'MODIFIER_PLAYER_DISTRICT_ADJUST_DISTRICT_AMENITY',					 0,			0,			NULL,						NULL,						NULL,							NULL											),
 
 
-			(	'WTR_BREAKWATER_REEFS_SCIENCE',							'MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD',					 0,			0,			NULL,						NULL,						NULL,							'AQUARIUM_REEF_REQUIREMENTS'					),
+			(	'WTR_BREAKWATER_REEFS_SCIENCE',							'MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD',						 0,			0,			NULL,						NULL,						NULL,							'AQUARIUM_REEF_REQUIREMENTS'					),
 
-			(	'WTR_BOARDWALK_ADJACENT_FOOD_TOURISM',					'MODIFIER_PLAYER_DISTRICTS_ADJUST_TOURISM_CHANGE',				 0,			0,			NULL,						NULL,						NULL,							'NAZCA_LINE_ADJACENCY_FAITH_REQUIREMENTS'		),
-			(	'WTR_BOARDWALK_ADJACENT_YIELDS',						'MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD',					 0,			0,			NULL,						NULL,						NULL,							'NAZCA_LINE_ADJACENCY_FAITH_REQUIREMENTS'		),
-			(	'WTR_BOARDWALK_ADJACENT_CONDITIONAL_YIELDS',			'MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD',					 0,			0,			NULL,						NULL,						NULL,							'WTR_SET_BOARDWALK_ADJACENT_CONDITIONS'			);
+			(	'WTR_BOARDWALK_ADJACENT_FOOD_TOURISM',					'MODIFIER_CITY_DISTRICTS_ADJUST_TOURISM_ADJACENCY_YIELD_MOFIFIER',	 0,			0,			NULL,						NULL,						NULL,							'WTR_SET_DISTRICT_IS_WATERFRONT_REQ'			),
+			(	'WTR_BOARDWALK_ADJACENT_YIELDS',						'MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD',						 0,			0,			NULL,						NULL,						NULL,							'NAZCA_LINE_ADJACENCY_FAITH_REQUIREMENTS'		),
+			(	'WTR_BOARDWALK_ADJACENT_CONDITIONAL_YIELDS',			'MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD',						 0,			0,			NULL,						NULL,						NULL,							'WTR_SET_BOARDWALK_ADJACENT_CONDITIONS'			);
 
 --===========================================================================================================================================================================--		
 		INSERT INTO ModifierArguments
@@ -136,6 +136,8 @@ INSERT INTO Types
 		INSERT INTO Requirements
 			(	RequirementId,								RequirementType,									Inverse	)	VALUES
 
+			(	'WTR_DISTRICT_IS_WATERFRONT_REQ',			'REQUIREMENT_DISTRICT_TYPE_MATCHES',				0		),
+
 			(	'WTR_BOARDWALK_ADJACENT_CONDITIONS_REQ',	'REQUIREMENT_REQUIREMENTSET_IS_MET',				0		),
 			(	'WTR_BOARDWALK_ANY_SEA_FEATURE_REQ',		'REQUIREMENT_REQUIREMENTSET_IS_MET',				0		);
 	
@@ -143,6 +145,8 @@ INSERT INTO Types
 		INSERT INTO RequirementArguments 
 			(	RequirementId,								Name,					Value									)	VALUES
 
+			(	'WTR_DISTRICT_IS_WATERFRONT_REQ',			'DistrictType',			'DISTRICT_WATERFRONT'					),
+	
 			(	'WTR_BOARDWALK_ADJACENT_CONDITIONS_REQ',	'RequirementSetId',		'WTR_BOARDWALK_ADJACENT_CONDITIONS'		),
 			(	'WTR_BOARDWALK_ANY_SEA_FEATURE_REQ',		'RequirementSetId',		'WTR_SET_ANY_SEA_FEATURE_CONDITIONS'	);
 			
@@ -151,12 +155,17 @@ INSERT INTO Types
 			(	RequirementSetId,								RequirementSetType			)	VALUES
 
 			(	'WTR_BOARDWALK_ADJACENT_CONDITIONS',			'REQUIREMENTSET_TEST_ANY'	),
+
+			(	'WTR_SET_DISTRICT_IS_WATERFRONT_REQ',			'REQUIREMENTSET_TEST_ALL'	),
+
 			(	'WTR_SET_BOARDWALK_ADJACENT_CONDITIONS',		'REQUIREMENTSET_TEST_ALL'	),
 			(	'WTR_SET_ANY_SEA_FEATURE_CONDITIONS',			'REQUIREMENTSET_TEST_ALL'	);
 			
 --===========================================================================================================================================================================--				
 		INSERT INTO RequirementSetRequirements
 			(	RequirementSetId,									RequirementId								)	VALUES
+
+			(	'WTR_SET_DISTRICT_IS_WATERFRONT_REQ',				'WTR_DISTRICT_IS_WATERFRONT_REQ'			),
 
 			(	'WTR_BOARDWALK_ADJACENT_CONDITIONS',				'WTR_BOARDWALK_ANY_SEA_FEATURE_REQ'			),
 			(	'WTR_BOARDWALK_ADJACENT_CONDITIONS',				'REQUIRES_PLOT_BREATHTAKING_APPEAL'			),
@@ -167,4 +176,14 @@ INSERT INTO Types
 			(	'WTR_SET_BOARDWALK_ADJACENT_CONDITIONS',			'ADJACENT_TO_OWNER'							),
 			(	'WTR_SET_BOARDWALK_ADJACENT_CONDITIONS',			'WTR_BOARDWALK_ADJACENT_CONDITIONS_REQ'		);
 			
- 
+  --===========================================================================================================================================================================--	
+
+		INSERT INTO CivilopediaPageChapterParagraphs
+			(	SectionId,								PageId,								ChapterId,				Paragraph,									SortIndex			)	VALUES
+
+			(	'DISTRICTS',							'DISTRICT_WATERFRONT',				'HISTORY',				'LOC_PEDIA_DISTRICT_WATERFRONT_1',			'1'					),
+			(	'DISTRICTS',							'DISTRICT_WATERFRONT',				'HISTORY',				'LOC_PEDIA_DISTRICT_WATERFRONT_2',			'2'					),
+			(	'BUILDINGS',							'BUILDING_WTR_BREAKWATER',			'HISTORY',				'LOC_PEDIA_BUILDING_WTR_BREAKWATER_1',		'1'					),
+			(	'BUILDINGS',							'BUILDING_WTR_BOARDWALK',			'HISTORY',				'LOC_PEDIA_BUILDING_WTR_BOARDWALK_1',		'1'					);
+
+--===========================================================================================================================================================================--	

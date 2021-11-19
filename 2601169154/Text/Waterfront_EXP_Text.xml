@@ -12,6 +12,14 @@
 				<Text>A district placed out on a coastal tile that increases growth and housing. Provides +1 [ICON_Amenities] Amenities if adjacent to the City Center. Cannot be built on Reef.</Text>
 			</Replace>	
 
+				<Replace Tag="LOC_PEDIA_DISTRICT_WATERFRONT_1" Language="en_US">
+					<Text>In modern urban planning, the waterfront area of a city refers to the districts located on the banks of larger bodies of water, be it rivers, canals, lakes or sea.</Text>
+				</Replace>	
+
+				<Replace Tag="LOC_PEDIA_DISTRICT_WATERFRONT_2" Language="en_US">
+					<Text>Starting from the early XXth century, quays alongside the city center had slowly become obsolete, thanks in no small part to the decay of international passenger shipping, the advent of automated container terminals and the increased size of specialised ships. As such, to revitalise these run-down waterfronts, various residential projects were issued, most of which have proven incredibly successful thanks in great part to the potential real estate value of property with a view to a prominent water body.</Text>
+				</Replace>	
+
 				<Replace Tag="LOC_WTR_CityCenter_Food_Description" Language="en_US">
 					<Text>+{1_num} [ICON_FOOD] Food from the adjacent City Center {1_Num : plural 1?district; other?districts;}.</Text>
 				</Replace>	
@@ -54,6 +62,10 @@
 				<Text>+1 [ICON_FOOD] Food on all Coast tiles for this city. +1 [ICON_SCIENCE] Science for all Reef features for this city.</Text>
 			</Replace>	
 
+				<Replace Tag="LOC_PEDIA_BUILDING_WTR_BREAKWATER_1" Language="en_US">
+					<Text>Breakwaters are structures constructed near coasts to protect an anchorage from the weather effects and long-shore current, as they reduce the intensity of wave action in inshore waters to provide safe harbourage. They are also fairly commonly used to protect beaches from coastal erosion.</Text>
+				</Replace>	
+
 		<Replace Tag="LOC_BUILDING_WTR_BOARDWALK_NAME" Language="en_US">
 			<Text>Boardwalk</Text>
 		</Replace>	
@@ -62,6 +74,10 @@
 				<Text>+1 [ICON_CULTURE] Culture and +1 [ICON_FAITH] Faith on all adjacent tiles. Additional +1 [ICON_CULTURE] Culture, +1 [ICON_FAITH] Faith, and +2 [ICON_FOOD] Food if the tile has a Sea feature or has Breathtaking appeal.</Text>
 			</Replace>	
 
+				<Replace Tag="LOC_PEDIA_BUILDING_WTR_BOARDWALK_1" Language="en_US">
+					<Text>A boardwalk is a promenade along a waterfront or a beach. While usually made of simple wooden boards, various prominent boardwalks have expanded to account for the increased pedestrian traffic and in some cases even been replaced by esplanades made of more durable material, such as concrete or bricks.</Text>
+				</Replace>	
+
 		<!-- ARSENAL DISTRICT -->
 
 		<Replace Tag="LOC_DISTRICT_ARSENAL_NAME" Language="en_US">
@@ -69,8 +85,12 @@
 		</Replace>	
 
 			<Replace Tag="LOC_DISTRICT_ARSENAL_DESCRIPTION" Language="en_US">
-			<Text>A district for naval military facilities. Also removes the [ICON_Movement] Movement penalty for embarking and disembarking to and from this tile. Must be built on Coast or Lake Terrain adjacent to land. Cannot be built on Reef.</Text>
+				<Text>A district for naval military facilities. Also removes the [ICON_Movement] Movement penalty for embarking and disembarking to and from this tile. Must be built on Coast or Lake Terrain adjacent to land. Cannot be built on Reef.</Text>
 			</Replace>	
+
+				<Replace Tag="LOC_PEDIA_DISTRICT_ARSENAL_1" Language="en_US">
+					<Text>In the original sense of the term, an arsenal is a military establishment where warships are built, maintained, repaired and preserved alongside their provided equipment and supplies. From the XVIIth century forwards the term arsenal lost its exclusive reference to the maritime world and became associated with the deposit and manufacture of military equipment.</Text>
+				</Replace>	
 
 		<!-- ARSENAL DISTRICT - BUILDINGS -->
 
@@ -82,6 +102,10 @@
 				<Text>+25% combat experience for all naval units trained in this city. [NEWLINE]Strategic Resource Stockpiles increased +10 (on Standard Speed).</Text>
 			</Replace>	
 
+				<Replace Tag="LOC_PEDIA_BUILDING_ARS_WAREHOUSE_1" Language="en_US">
+					<Text>Naval arsenals require extensive warehouses to house the multiple pieces of equipment required to field, maintain and operate the complex warships of the time.</Text>
+				</Replace>	
+
 		<Replace Tag="LOC_BUILDING_ARS_DRYDOCK_NAME" Language="en_US">
 			<Text>Drydock</Text>
 		</Replace>	
@@ -90,6 +114,10 @@
 				<Text>+25% combat experience for all naval units trained in this city. +1 [ICON_PRODUCTION] Produciton for all unimproved Coast tiles in this city. Additional +1 [ICON_PRODUCTION] Production if adjacent to the Arsenal. [NEWLINE]Strategic Resource Stockpiles increased +10 (on Standard Speed). [NEWLINE]Allows the Military Engineer unit to be trained in this city.</Text>
 			</Replace>	
 
+				<Replace Tag="LOC_PEDIA_BUILDING_ARS_DRYDOCK_1" Language="en_US">
+					<Text>A drydock is a narrow basin that allows the reception of ships and their dry-up for their maintenance, repair, construction and possible dismantling.</Text>
+				</Replace>	
+
 		<Replace Tag="LOC_BUILDING_ARS_NAVALACADEMY_NAME" Language="en_US">
 			<Text>Naval Academy</Text>
 		</Replace>	
@@ -97,6 +125,10 @@
 			<Replace Tag="LOC_BUILDING_ARS_NAVALACADEMY_DESCRIPTION" Language="en_US">
 				<Text>+25% combat experience for all naval units trained in this city. Allows Fleets and Armadas to be trained directly. Fleet and Armada training costs reduced 25%. [NEWLINE]Strategic Resource Stockpiles increased +10 (on Standard Speed).</Text>
 			</Replace>	
+
+				<Replace Tag="LOC_PEDIA_BUILDING_ARS_NAVALACADEMY_1" Language="en_US">
+					<Text>A naval academy is a national institution that offers undergraduate level education for future naval officers. Naval training commonly took place only at sea until the XXth century, even with the fleet permanently moored. As an example, both the French and British naval schools had their training facilities built ashore relatively recently, which contrasts heavily with their military counterparts in the army as both French and British military academies have much longer and richer histories.</Text>
+				</Replace>				
 
 		<!-- VANILLA DISTRICTS -->
 

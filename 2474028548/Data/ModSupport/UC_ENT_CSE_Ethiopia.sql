@@ -1,0 +1,40 @@
+-- UC_ENT_CSE_Ethiopia
+-- Author: JNR
+--------------------------------------------------------------
+
+-- Modifiers
+--------------------------------------------------------------
+UPDATE	Modifiers SET SubjectRequirementSetId='PLAYER_HAS_MEDIUM_INFLUENCE'		WHERE ModifierId='MODIFIER_CSE_ENTERTAINMENT_ARENA_AMENITY';
+UPDATE	Modifiers SET SubjectRequirementSetId='PLAYER_HAS_LARGE_INFLUENCE'		WHERE ModifierId='MODIFIER_CSE_ENTERTAINMENT_ZOO_AMENITY';
+UPDATE	Modifiers SET SubjectRequirementSetId='PLAYER_HAS_LARGEST_INFLUENCE'	WHERE ModifierId='MODIFIER_CSE_ENTERTAINMENT_STADIUM_AMENITY';
+
+INSERT OR IGNORE INTO Modifiers 
+		(ModifierId,										ModifierType,							SubjectRequirementSetId				)
+VALUES	('MODIFIER_CSE_ENTERTAINMENT_DISTRICT_AMENITY',		'MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER',	'PLAYER_HAS_SMALL_INFLUENCE'		),
+		('MODIFIER_CSE_ENTERTAINMENT_DISTRICT_AMENITY_MOD',	'MODTYPE_CSE_ENTERTAINMENT_AMENITY',	'CITY_HAS_ANY_ENTERTAINMENT_JNR'	);
+--------------------------------------------------------------
+
+-- ModifierArguments
+--------------------------------------------------------------
+INSERT INTO ModifierArguments
+		(ModifierId,										Name,			Value												)
+VALUES	('MODIFIER_CSE_ENTERTAINMENT_DISTRICT_AMENITY',		'ModifierId',	'MODIFIER_CSE_ENTERTAINMENT_DISTRICT_AMENITY_MOD'	),
+		('MODIFIER_CSE_ENTERTAINMENT_DISTRICT_AMENITY_MOD',	'Amount',		1													);
+--------------------------------------------------------------
+
+-- TraitModifiers
+--------------------------------------------------------------
+DELETE FROM TraitModifiers WHERE TraitType='MINOR_CIV_CSE_ENTERTAINMENT_TRAIT' AND ModifierId='MODIFIER_CSE_ENTERTAINMENT_ARENA_AMENITY_ETHIOPIA';
+DELETE FROM TraitModifiers WHERE TraitType='MINOR_CIV_CSE_ENTERTAINMENT_TRAIT' AND ModifierId='MODIFIER_CSE_ENTERTAINMENT_ZOO_AMENITY_ETHIOPIA';
+DELETE FROM TraitModifiers WHERE TraitType='MINOR_CIV_CSE_ENTERTAINMENT_TRAIT' AND ModifierId='MODIFIER_CSE_ENTERTAINMENT_STADIUM_AMENITY_ETHIOPIA';
+
+DELETE FROM TraitModifiers WHERE TraitType='MINOR_CIV_CSE_ENTERTAINMENT_TRAIT' AND ModifierId='MODIFIER_CSE_ENTERTAINMENT_FERRIS_WHEEL_AMENITY_ETHIOPIA';
+DELETE FROM TraitModifiers WHERE TraitType='MINOR_CIV_CSE_ENTERTAINMENT_TRAIT' AND ModifierId='MODIFIER_CSE_ENTERTAINMENT_AQUARIUM_AMENITY_ETHIOPIA';
+DELETE FROM TraitModifiers WHERE TraitType='MINOR_CIV_CSE_ENTERTAINMENT_TRAIT' AND ModifierId='MODIFIER_CSE_ENTERTAINMENT_AQUATICS_CENTER_AMENITY_ETHIOPIA';
+
+DELETE FROM TraitModifiers WHERE TraitType='MINOR_CIV_CSE_ENTERTAINMENT_TRAIT' AND ModifierId='MODIFIER_CSE_ENTERTAINMENT_CONSULATE_AMENITY_ETHIOPIA_LARGEST';
+
+INSERT INTO TraitModifiers 
+		(TraitType, 							ModifierId										)
+VALUES	('MINOR_CIV_CSE_ENTERTAINMENT_TRAIT',	'MODIFIER_CSE_ENTERTAINMENT_DISTRICT_AMENITY'	);
+--------------------------------------------------------------

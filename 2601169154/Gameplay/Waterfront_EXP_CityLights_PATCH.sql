@@ -16,6 +16,7 @@
 			(	'WTR_Borough_B_Food',			'LOC_WTR_Borough_B_Food_Description',			'YIELD_FOOD',			2,				0,								1,				0,						0,						NULL,							NULL,							NULL,					NULL,								'DISTRICT_COREEXPANSIONB'				),
 			(	'WTR_Borough_C_Food',			'LOC_WTR_Borough_C_Food_Description',			'YIELD_FOOD',			3,				0,								1,				0,						0,						NULL,							NULL,							NULL,					NULL,								'DISTRICT_COREEXPANSIONC'				);
 
+
 		INSERT INTO District_Adjacencies
 			(	DistrictType,					YieldChangeID					)	VALUES
 
