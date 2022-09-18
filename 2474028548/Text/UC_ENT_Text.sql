@@ -50,10 +50,10 @@ VALUES	('LOC_BUILDING_ARENA_DESCRIPTION_UC_JNR',						'+1 [ICON_Amenities] Ameni
 		('LOC_POLICY_JNR_STATE_FAIRS_NAME',								'State Fairs'),
 		('LOC_POLICY_JNR_STATE_FAIRS_DESCRIPTION',						'+100% Entertainment Complex and Water Park district adjacency bonuses, and Convention Centers and Concert Halls generate +1 [ICON_Amenities] Amenity.');
 
-UPDATE LocalizedText SET Text=Text || '[NEWLINE]Grants [ICON_TOURISM] Tourism equal to its [ICON_GOLD] Gold adjacency once Flight has been reesearched.' WHERE Language='en_US' AND Tag='LOC_DISTRICT_ENTERTAINMENT_COMPLEX_DESCRIPTION';
-UPDATE LocalizedText SET Text=Text || '[NEWLINE]Grants [ICON_TOURISM] Tourism equal to its [ICON_GOLD] Gold adjacency once Flight has been reesearched.' WHERE Language='en_US' AND Tag='LOC_DISTRICT_WATER_ENTERTAINMENT_COMPLEX_DESCRIPTION';
-UPDATE LocalizedText SET Text=Text || '[NEWLINE]Grants [ICON_TOURISM] Tourism equal to its [ICON_GOLD] Gold adjacency once Flight has been reesearched.' WHERE Language='en_US' AND Tag='LOC_DISTRICT_STREET_CARNIVAL_EXPANSION2_DESCRIPTION';
-UPDATE LocalizedText SET Text=Text || '[NEWLINE]Grants [ICON_TOURISM] Tourism equal to its [ICON_GOLD] Gold adjacency once Flight has been reesearched.' WHERE Language='en_US' AND Tag='LOC_DISTRICT_WATER_STREET_CARNIVAL_EXPANSION2_DESCRIPTION';
-UPDATE LocalizedText SET Text=Text || '[NEWLINE]Grants [ICON_TOURISM] Tourism equal to its [ICON_GOLD] Gold adjacency once Flight has been reesearched.' WHERE Language='en_US' AND Tag='LOC_DISTRICT_HIPPODROME_EXPANSION2_DESCRIPTION';
+UPDATE LocalizedText SET Text=Text || '[NEWLINE]Grants [ICON_TOURISM] Tourism equal to its [ICON_GOLD] Gold adjacency once Flight has been researched.' WHERE Language='en_US' AND Tag='LOC_DISTRICT_ENTERTAINMENT_COMPLEX_DESCRIPTION';
+UPDATE LocalizedText SET Text=Text || '[NEWLINE]Grants [ICON_TOURISM] Tourism equal to its [ICON_GOLD] Gold adjacency once Flight has been researched.' WHERE Language='en_US' AND Tag='LOC_DISTRICT_WATER_ENTERTAINMENT_COMPLEX_DESCRIPTION';
+UPDATE LocalizedText SET Text=Text || '[NEWLINE]Grants [ICON_TOURISM] Tourism equal to its [ICON_GOLD] Gold adjacency once Flight has been researched.' WHERE Language='en_US' AND Tag='LOC_DISTRICT_STREET_CARNIVAL_EXPANSION2_DESCRIPTION';
+UPDATE LocalizedText SET Text=Text || '[NEWLINE]Grants [ICON_TOURISM] Tourism equal to its [ICON_GOLD] Gold adjacency once Flight has been researched.' WHERE Language='en_US' AND Tag='LOC_DISTRICT_WATER_STREET_CARNIVAL_EXPANSION2_DESCRIPTION';
+UPDATE LocalizedText SET Text=Text || '[NEWLINE]Grants [ICON_TOURISM] Tourism equal to its [ICON_GOLD] Gold adjacency once Flight has been researched.' WHERE Language='en_US' AND Tag='LOC_DISTRICT_HIPPODROME_EXPANSION2_DESCRIPTION';
 --------------------------------------------------------------
 

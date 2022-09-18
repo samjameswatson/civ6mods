@@ -62,7 +62,7 @@ WHERE	BuildingType IN (
 						'BUILDING_TEMPLE',
 						'BUILDING_JNR_MONASTERY',
 						'BUILDING_ARENA',
-						'BUILDING_JNR_CIRCUS'
+						'BUILDING_JNR_TOURNEY'
 						);
 
 INSERT OR IGNORE INTO BuildingPrereqs

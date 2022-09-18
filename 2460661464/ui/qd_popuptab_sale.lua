@@ -640,6 +640,9 @@ function OnEndAIOfferAccept(myOfferedItemsInDeal:table)
         -- Update remaining offers.
         if GetOfferedItemCount() == 0 then
             UpdateDealPanel();
+        elseif table.count(myOfferedItemsInDeal) == 1 and myOfferedItemsInDeal[1].Type == DealItemTypes.AGREEMENTS then
+            -- Only open border was offered, keep it in the offered item to sell it to other AIs.
+            UpdateDealPanel();
         else
             RemoveDealItems(myOfferedItemsInDeal);
         end

@@ -757,9 +757,9 @@ function StartEqualizeRequestTimer(otherPlayerId, sessionId)
     Controls.RequestTimer:Play();
 end
 
-function FinishPopupClose()
+function FinishPopupClose(sessionIdToSkip)
     -- Close all diplomacy session and notify popup closed.
-    CloseAllDiplomacySessions();
+    CloseAllDiplomacySessions(sessionIdToSkip);
     LuaEvents.QDDealPopup_Closed();
     m_PopupCloseRequested = false;
 end
@@ -772,12 +772,21 @@ function OnPopupCloseRequested()
     end
 end
 
+function OnSurpriseSession(sessionId)
+    m_IsFetching = false;
+    m_IsAccepting = false;
+    m_IsMTGUpdating = false;
+    m_AwaitingResponse = nil;
+    FinishPopupClose(sessionId);
+end
+
 function QD_Initialize()
     Events.DiplomacyStatement.Add(OnDiplomacyStatement);
     LuaEvents.QD_StartAIOfferAccept.Add(OnStartAIOfferAccept);
     LuaEvents.QD_StartAIOfferFetch.Add(OnStartAIOfferFetch);
     LuaEvents.QD_StartMultiTurnGoldUpdate.Add(OnStartMultiTurnGoldUpdate);
     LuaEvents.QDDealPopup_CloseRequest.Add(OnPopupCloseRequested);
+    LuaEvents.QD_OnSurpriseSession.Add(OnSurpriseSession);
 end
 
 QD_Initialize();

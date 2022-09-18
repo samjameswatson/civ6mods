@@ -12,6 +12,8 @@
             <!--Tab content container. -->
             <Container ID="TabContentContainer" Size="parent,parent-33" Offset="0,12"/>
 
+            <CheckBox ID="NotificationToggle" IsChecked="1" Offset="10,-27" TextOffset="-5,0" String="LOC_OPTIONS_NOTIFICATIONS" Style="WhiteSemiBold14" ButtonTexture="Controls_Checkbox.dds" ButtonSize="17,17" CheckTexture="Controls_Checkbox.dds" CheckSize="17,17" CheckTextureOffset="0,17" Anchor="R,T"/>
+
             <Image Texture="Controls_GradientSmall" Size="parent-12, 22" Offset="6,21" Anchor="L,B" Color="0,0,0,255" FlipY="1"/>
             <Image Texture="Controls_GradientSmall" Size="parent-12, 15" Offset="6,12" Anchor="L,T" Color="0,0,0,255"/>
             <!--End of Content Stack-->

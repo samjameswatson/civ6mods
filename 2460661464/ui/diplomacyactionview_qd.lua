@@ -26,8 +26,16 @@ local m_QDPopupShowing = false;
 
 -- ===========================================================================
 function OnDiplomacyStatement(fromPlayer:number, toPlayer:number, kVariants:table)
-    -- print("OnDiplomacyStatement: ", kVariants.RespondingToDealAction, kVariants.DealAction, kVariants.SessionID, fromPlayer, m_QDPopupShowing);
-    if m_QDPopupShowing then return; end
+    -- print("OnDiplomacyStatement: ", kVariants.StatementType, kVariants.RespondingToDealAction, kVariants.DealAction, kVariants.SessionID, fromPlayer, toPlayer, m_QDPopupShowing);
+    if m_QDPopupShowing then
+        local statementTypeName = DiplomacyManager.GetKeyName(kVariants.StatementType);
+        if statementTypeName == "MAKE_DEAL" then
+            return;
+        else
+            LuaEvents.QD_OnSurpriseSession(kVariants.SessionID);
+            LuaEvents.QD_CloseDealPopupSilently();
+        end
+    end
     QD_BASE_OnDiplomacyStatement(fromPlayer, toPlayer, kVariants);
 end
 

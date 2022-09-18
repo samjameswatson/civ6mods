@@ -69,9 +69,19 @@ end
 
 DIPLOMATIC_FAVOR_INDEX = 1; -- item index for diplomatic favor.
 
+OPT_OUT_NOTIFICATION_KEY = "QD_OPT_OUT_NOTIFICATION";
+
 -- ===========================================================================
 --  Helper functions
 -- ===========================================================================
+function IsNotificationOptedOut()
+    return GameConfiguration.GetValue(OPT_OUT_NOTIFICATION_KEY) == true;
+end
+
+function ToggleNotificationOptedOut()
+    GameConfiguration.SetValue(OPT_OUT_NOTIFICATION_KEY, not IsNotificationOptedOut());
+end
+
 function SetIconToSize(iconControl, iconName, iconSize)
     if iconSize == nil then
         iconSize = 50;
@@ -159,7 +169,7 @@ function SortOffers(unsortedOffers, sortType, descending:boolean)
     return unsortedOffers;
 end
 
-function CloseAllDiplomacySessions()
+function CloseAllDiplomacySessions(sessionIdToSkip)
     local localPlayerId = Game.GetLocalPlayer();
     if localPlayerId == -1 then return; end
 
@@ -167,7 +177,7 @@ function CloseAllDiplomacySessions()
     local otherPlayers = GetAIPlayersToCheck(localPlayer);
     for _, otherPlayerId in ipairs(otherPlayers) do
         local sessionId = DiplomacyManager.FindOpenSessionID(localPlayerId, otherPlayerId);
-        if sessionId ~= nil then
+        if sessionId ~= nil and sessionId ~= sessionIdToSkip then
             DiplomacyManager.CloseSession(sessionId);
         end
     end

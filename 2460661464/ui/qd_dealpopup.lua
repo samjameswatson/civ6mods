@@ -14,6 +14,7 @@ local TAB_PADDING:number = 10;
 --  MEMBERS
 -- ===========================================================================
 local m_TabButtonIM:table = InstanceManager:new("TabButtonInstance", "Button", Controls.TabContainer);
+local m_OpenPopupActionId:number = Input.GetActionId("OpenQDPopup");
 
 local m_TopPanelConsideredHeight:number = 0;
 local m_Tabs;
@@ -57,6 +58,10 @@ function Close()
         LuaEvents.QDDealPopup_CloseRequest();
         UI.PlaySound("UI_Screen_Close");
     end
+end
+
+function CloseSilently()
+    UIManager:DequeuePopup(ContextPtr);
 end
 
 function OnSaleTabClick(uiSelectedButton:table)
@@ -154,11 +159,19 @@ function OnInputHandler(pInputStruct:table)
     return true;
 end
 
+function OnInputActionTriggered(actionId:number)
+    if actionId == m_OpenPopupActionId and ContextPtr:IsHidden() then
+        -- Only add action for opening popup, since all key events are blocked when popup is shown.
+        Open();
+    end
+end
+
 function OnShutdown()
     m_TabButtonIM:ResetInstances();
     -- LUA Events
     LuaEvents.QD_RequestDealScreen.Remove(OnRequestDealScreen);
     LuaEvents.QD_ToggleDealPopup.Remove(ToggleDealPopup);
+    LuaEvents.QD_CloseDealPopupSilently.Remove(CloseSilently);
 end
 
 function OnProcessNotification(playerId:number, notificationId:number, activatedByUser:boolean)
@@ -190,13 +203,18 @@ function QD_Initialize()
     ContextPtr:SetInputHandler(OnInputHandler, true);
     ContextPtr:SetShutdown(OnShutdown);
 
+    Events.InputActionTriggered.Add(OnInputActionTriggered);
     Events.NotificationActivated.Add(OnProcessNotification);
 
     LuaEvents.QD_RequestDealScreen.Add(OnRequestDealScreen);
     LuaEvents.QD_ToggleDealPopup.Add(ToggleDealPopup);
+    LuaEvents.QD_CloseDealPopupSilently.Add(CloseSilently);
 
     Controls.ModalScreenClose:RegisterCallback(Mouse.eLClick, Close);
     Controls.ModalScreenTitle:SetText(Locale.ToUpper(Locale.Lookup("LOC_QD_NAME")));
+
+    Controls.NotificationToggle:RegisterCallback(Mouse.eLClick, ToggleNotificationOptedOut);
+    Controls.NotificationToggle:SetCheck(not IsNotificationOptedOut());
 
     m_TopPanelConsideredHeight = Controls.Vignette:GetSizeY() - TOP_PANEL_OFFSET;
 end

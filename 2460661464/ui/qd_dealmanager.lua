@@ -21,12 +21,9 @@ function AddResourceToOffer(player, resourceIndex, maxAmount, delta)
     -- Check if the resource has already been added.
     local dealItem = m_MyOfferedItems[DealItemTypes.RESOURCES][resourceIndex];
     if dealItem then
-        if dealItem.Amount < maxAmount then
-            dealItem.Amount = math.min(dealItem.Amount + delta, maxAmount);
-            m_MyOfferedItems[DealItemTypes.RESOURCES][resourceIndex] = dealItem;
-            return true;
-        end
-        return false;
+        dealItem.Amount = math.min(dealItem.Amount + delta, maxAmount);
+        m_MyOfferedItems[DealItemTypes.RESOURCES][resourceIndex] = dealItem;
+        return true;
     end
     -- It's a newly added resource.
     local amount = player:GetResources():GetResourceAmount(resourceIndex);
@@ -56,12 +53,9 @@ function AddFavorToOffer(player, maxAmount, delta)
     -- Check if the item has already been added.
     local dealItem = m_MyOfferedItems[DealItemTypes.FAVOR][DIPLOMATIC_FAVOR_INDEX];
     if dealItem then
-        if dealItem.Amount < maxAmount then
-            dealItem.Amount = math.min(dealItem.Amount + delta, maxAmount);
-            m_MyOfferedItems[DealItemTypes.FAVOR][DIPLOMATIC_FAVOR_INDEX] = dealItem;
-            return true;
-        end
-        return false;
+        dealItem.Amount = math.min(dealItem.Amount + delta, maxAmount);
+        m_MyOfferedItems[DealItemTypes.FAVOR][DIPLOMATIC_FAVOR_INDEX] = dealItem;
+        return true;
     end
     -- It's a newly added item.
     if maxAmount > 0 then

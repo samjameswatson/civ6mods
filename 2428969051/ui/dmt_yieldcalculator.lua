@@ -397,8 +397,10 @@ function CanPlaceWonderCheckHelper(playerID:number, pinSubject:table, features:t
     -- Already has wonder?
     if features[AdjacencyBonusTypes.ADJACENCY_WONDER] and features[AdjacencyBonusTypes.ADJACENCY_WONDER] ~= pinSubject.Key then
         -- Check if the plot has a wonder that is different from the pin.
-        canPlace = false;
-        table.insert(reasons, GetCannotPlaceReasonString(GameInfo.Buildings[features[AdjacencyBonusTypes.ADJACENCY_WONDER]].Name));
+        if features[AdjacencyBonusTypes.ADJACENCY_WONDER] ~= "DISTRICT_WONDER" and pinSubject.Key ~= "DISTRICT_WONDER" then
+            canPlace = false;
+            table.insert(reasons, GetCannotPlaceReasonString(GameInfo.Buildings[features[AdjacencyBonusTypes.ADJACENCY_WONDER]].Name));
+        end
     end
     -- Cannot harvest resource?
     if not CanHarvestResource(features[AdjacencyBonusTypes.ADJACENCY_RESOURCE]) and not IsCityCenter(pinSubject.Key) then
@@ -474,9 +476,11 @@ function CanPlaceWonderCheckHelper(playerID:number, pinSubject:table, features:t
             table.insert(reasons, GetCannotPlaceReasonString(GameInfo.Terrains[terrain].Name));
         end
         -- Special check for BUILDING_GOLDEN_GATE_BRIDGE.
-        if wonderRow.BuildingType == "BUILDING_GOLDEN_GATE_BRIDGE" and not IsValidGoldenGateBridgePosition(playerID, x, y) then
-            canPlace = false;
-            table.insert(reasons, Locale.Lookup("LOC_DMT_GOLDEN_GATE_BRIDGE_REASON"));
+        if wonderRow.BuildingType == "BUILDING_GOLDEN_GATE_BRIDGE" or wonderRow.BuildingType == "BUILDING_TOWER_BRIDGE" then
+            if not IsValidBridgePosition(playerID, x, y) then
+                canPlace = false;
+                table.insert(reasons, Locale.Lookup("LOC_DMT_GOLDEN_GATE_BRIDGE_REASON"));
+            end
         end
     end
     return canPlace, reasons;
@@ -665,15 +669,16 @@ function IsValidDamPosition(playerID, x, y)
     local riverTypeId = RiverManager.GetRiverForFloodplain(x, y);
     if riverTypeId ~= -1 then
         -- Crossing edges check.
-        local riverId = -1;
+        local riverIndex = -1;
         for i = 0, RiverManager.GetNumRivers() - 1, 1 do
             local river = RiverManager.GetRiverByIndex(i);
             if river.TypeID == riverTypeId then
-                riverId = river.ID;
+                riverIndex = i;
+                break;
             end
         end
-        if riverId ~= -1 then
-            local river = RiverManager.GetRiverByIndex(riverId, "edges");
+        if riverIndex ~= -1 then
+            local river = RiverManager.GetRiverByIndex(riverIndex, "edges");
             for _, plotIndexPair in ipairs(river.Edges) do
                 local floodplainCheckId = -1;
                 if plotToCheck:GetIndex() == plotIndexPair[1] then
@@ -683,10 +688,14 @@ function IsValidDamPosition(playerID, x, y)
                 end
                 if floodplainCheckId ~= -1 then
                     riverCrossedEdgeCount = riverCrossedEdgeCount + 1;
-                    if RiverManager.CanBeFlooded(Map.GetPlotByIndex(floodplainCheckId)) then
-                        adjacentFloodplainCount = adjacentFloodplainCount + 1;
-                    end
                 end
+            end
+        end
+        -- Adjacent floodplain check.
+        local adjPlots = Map.GetAdjacentPlots(x, y);
+        for i, plot in ipairs(adjPlots) do
+            if RiverManager.CanBeFlooded(plot) then
+                adjacentFloodplainCount = adjacentFloodplainCount + 1;
             end
         end
         -- Single dam per river check.
@@ -733,7 +742,7 @@ function CanPlaceSpecialtyDistrict(playerID, x, y)
 end
 
 -- Special check for golden gate bridge.
-function IsValidGoldenGateBridgePosition(playerID, x, y)
+function IsValidBridgePosition(playerID, x, y)
     for direction = 0, 2, 1 do
         local refPlot = Map.GetAdjacentPlot(x, y, direction);
         local refPlot1 = Map.GetAdjacentPlot(x, y, direction + 1);
@@ -1464,6 +1473,27 @@ function OnLocalPlayerTurnBegin(isFirstLoad)
     UpdatePinYields(playerID, allPins);
 end
 
+function OnBuildingAdded(plotX, plotY, buildingIndex, playerID)
+    -- Remove the wonder pin if the added wonder matches the pin.
+    if playerID ~= -1 and playerID == Game.GetLocalPlayer() then
+        local pin = MapPinSubjectManager.GetPin(playerID, plotX, plotY);
+        if pin ~= nil and pin.Key == GameInfo.Buildings[buildingIndex].BuildingType then
+            LuaEvents.DMT_DeleteMapPinRequest(playerID, plotX, plotY);
+        end
+    end
+end
+
+function OnDistrictAdded(playerID, districtID, cityID, districtX, districtY, districtIndex)
+    OnDistrictChanged(playerID, districtID, cityID, districtX, districtY, districtIndex);
+    -- Remove the district pin if the added district matches the pin.
+    if playerID ~= -1 and playerID == Game.GetLocalPlayer() then
+        local pin = MapPinSubjectManager.GetPin(playerID, districtX, districtY);
+        if pin ~= nil and pin.Key == GameInfo.Districts[districtIndex].DistrictType then
+            LuaEvents.DMT_DeleteMapPinRequest(playerID, districtX, districtY);
+        end
+    end
+end
+
 function OnDistrictChanged(playerID, districtID, cityID, districtX, districtY, districtIndex)
     if playerID ~= -1 and playerID == Game.GetLocalPlayer() then
         local pinsToUpdate = {};
@@ -1482,7 +1512,18 @@ function OnFeatureRemovedFromMap(posX, posY)
     UpdateSelfAndAdjacentPins(Game.GetLocalPlayer(), posX, posY);
 end
 
-function OnImprovementChanged(posX, posY, improvementType, playerID)
+function OnImprovementAdded(posX, posY, improvementIndex, playerID)
+    OnImprovementChanged(posX, posY, improvementIndex, playerID);
+    -- Remove the improvement pin if the added improvement matches the pin.
+    if playerID ~= -1 and playerID == Game.GetLocalPlayer() then
+        local pin = MapPinSubjectManager.GetPin(playerID, posX, posY);
+        if pin ~= nil and pin.Key == GameInfo.Improvements[improvementIndex].ImprovementType then
+            LuaEvents.DMT_DeleteMapPinRequest(playerID, posX, posY);
+        end
+    end
+end
+
+function OnImprovementChanged(posX, posY, improvementIndex, playerID)
     UpdateSelfAndAdjacentPins(playerID, posX, posY);
 end
 
@@ -1507,12 +1548,13 @@ function DMT_Initialize()
     LuaEvents.DMT_MapPinRemoved.Add(OnMapPinRemoved);
 
     -- Listeners for Events in the Game
-    Events.DistrictAddedToMap.Add(OnDistrictChanged);
+    Events.BuildingAddedToMap.Add(OnBuildingAdded);
+    Events.DistrictAddedToMap.Add(OnDistrictAdded);
     Events.DistrictPillaged.Add(OnDistrictChanged);
     Events.DistrictRemovedFromMap.Add(OnDistrictChanged);
     Events.FeatureRemovedFromMap.Add(OnFeatureRemovedFromMap);
     Events.ImprovementChanged.Add(OnImprovementChanged);
-    Events.ImprovementAddedToMap.Add(OnImprovementChanged);
+    Events.ImprovementAddedToMap.Add(OnImprovementAdded);
     Events.ImprovementRemovedFromMap.Add(OnImprovementRemoved);
     Events.PlotVisibilityChanged.Add(OnPlotVisibilityChanged);
     Events.LoadGameViewStateDone.Add(OnLoadGameViewStateDone); -- LocalPlayerTurnBegin won't trigger when the game is first loaded.

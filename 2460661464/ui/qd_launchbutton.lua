@@ -86,7 +86,10 @@ function CheckAvailableDeals()
             local buyableTTStr = GetToolTipStrFromLines(allBuyableTTLines);
             ttStr = ttStr .. buyableTTStr;
         end
-        NotificationManager.SendNotification(playerId, QD_NOTIFICATION_HASH, Locale.Lookup("LOC_QD_NEW_DEALS_AVAILABLE"), ttStr);
+        -- Only send notification if user wanted to.
+        if not IsNotificationOptedOut() then
+            NotificationManager.SendNotification(playerId, QD_NOTIFICATION_HASH, Locale.Lookup("LOC_QD_NEW_DEALS_AVAILABLE"), ttStr);
+        end
 
         -- Show info button next to launch button.
         if m_LaunchButtonInstance ~= nil and m_LaunchButtonInstance.AlertIndicator ~= nil then
