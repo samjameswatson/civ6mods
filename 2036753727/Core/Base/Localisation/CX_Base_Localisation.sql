@@ -12,7 +12,7 @@ VALUES
 		('LOC_TRAIT_CIVILIZATION_FOUNDING_FATHERS_NAME',
 		'Manifest Destiny'),
 		('LOC_TRAIT_CIVILIZATION_FOUNDING_FATHERS_EXPANSION2_DESCRIPTION',
-		'All Diplomatic policy slots in the current [ICON_Government] Government are converted to Wildcard policy slots. +2 [ICON_Amenities] Amenities and +2 [ICON_Housing] Housing to cities on America''s home continent. Tiles can be purchased for 50% less [ICON_Gold] Gold. When outside American territory, units receive +1 Sight and ignore the [ICON_Movement] Movement costs of terrain and features.'),
+		'All Diplomatic policy slots in the current [ICON_Government] Government are converted to Wildcard policy slots. Tiles can be purchased for 50% less [ICON_Gold] Gold. The [ICON_Capital] Capital and newly founded cities on America''s home continent begin with a free Builder and melee unit. When outside American territory, units receive +1 Sight and ignore the [ICON_Movement] Movement costs of terrain and features.'),
 		('LOC_P0K_AMERICA_ABILITY_MANIFEST_DESTINY_NAME',
 		'Manifest Destiny'),
 		('LOC_P0K_AMERICA_ABILITY_MANIFEST_DESTINY_DESCRIPTION',
@@ -30,8 +30,8 @@ VALUES
 		('LOC_UNIT_AMERICAN_ROUGH_RIDER_EXPANSION2_DESCRIPTION',
 		'American unique Industrial Era unit when Teddy Roosevelt is the leader. Replaces the Cuirassier. Earns [ICON_Culture] Culture from combat victories on America''s home continent. +10 [ICON_Strength] Combat Strength when fighting on Hills. Lower maintenance cost.'),
 		-- Unique Building
-		('LOC_BUILDING_FILM_STUDIO_DESCRIPTION',
-		'A building unique to America that replaces the Broadcast Center. +1 [ICON_Amenities] Amenity. Bonus [ICON_Production] Production equal to the [ICON_Culture] Culture adjacency bonus of the Theater Square. +100% [ICON_Tourism] Tourism pressure from this city towards other civilizations in the Modern era. No maintenance cost.'),
+		('LOC_BUILDING_FILM_STUDIO_EXPANSION2_DESCRIPTION',
+		'A building unique to America that replaces the Broadcast Center. +1 [ICON_Amenities] Amenity. Bonus [ICON_Production] Production equal to the [ICON_Culture] Culture adjacency bonus of the Theater Square. +100% [ICON_Tourism] Tourism pressure from this city towards other civilizations when the game enters the Modern era. No maintenance cost.'),
 		-- Unique Unit (only wording changes)
 		('LOC_UNIT_AMERICAN_P51_DESCRIPTION',
 		'American unique Atomic Era air unit that replaces the Fighter. Gains +5 [ICON_Strength] Combat Strength against fighter aircraft, has +2 flight range, and accumulates +50% experience.'), 

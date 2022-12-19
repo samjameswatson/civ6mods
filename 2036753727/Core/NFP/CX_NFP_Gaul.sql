@@ -5,32 +5,15 @@
 -- CIVILIZATION UNIQUE ABILITY: MASTERS OF METALLURGY (REWORK)
 --=============================================================================================================
 -- (Remove maluses).
--- Builders trained on the home continent of the Capital receive +1 Charge and +1 Movement.
--- Building a Mine triggers a Culture Bomb, claiming adjacent unowned tiles.
+-- Begin the game with the Mining technology unlocked.
 -- Mined resources provide +1 Culture and +1 Production.
 -- Specialty districts receive a standard adjacency bonus from Mines.
+-- Building a Mine triggers a Culture Bomb, claiming adjacent unowned tiles.
+-- Builders receive +1 Charge.
 --=============================================================================================================
 -- ExcludedAdjacencies
 ---------------------------------------------------------------------------------------------------------------
 DELETE FROM ExcludedAdjacencies WHERE TraitType = 'TRAIT_CIVILIZATION_GAUL';
----------------------------------------------------------------------------------------------------------------
--- Types
----------------------------------------------------------------------------------------------------------------
-INSERT INTO Types
-		(Type,									Kind)
-VALUES	('P0K_ABILITY_MASTERS_OF_METALLURGY',	'KIND_ABILITY');
----------------------------------------------------------------------------------------------------------------
--- TypeTags
----------------------------------------------------------------------------------------------------------------
-INSERT INTO TypeTags
-		(Type,									Tag)
-VALUES	('P0K_ABILITY_MASTERS_OF_METALLURGY',	'CLASS_BUILDER');
----------------------------------------------------------------------------------------------------------------
--- UnitAbilities
----------------------------------------------------------------------------------------------------------------
-INSERT INTO UnitAbilities
-		(UnitAbilityType,						Name,											Description,											Inactive)
-VALUES	('P0K_ABILITY_MASTERS_OF_METALLURGY',	'LOC_P0K_ABILITY_MASTERS_OF_METALLURGY_NAME',	'LOC_P0K_ABILITY_MASTERS_OF_METALLURGY_DESCRIPTION',	1);
 ---------------------------------------------------------------------------------------------------------------
 -- Requirements
 ---------------------------------------------------------------------------------------------------------------
@@ -80,14 +63,10 @@ FROM Improvement_ValidResources WHERE ImprovementType = 'IMPROVEMENT_MINE';
 -- Modifiers
 ---------------------------------------------------------------------------------------------------------------
 INSERT INTO Modifiers
-		(ModifierId,									ModifierType,											Permanent,	SubjectRequirementSetId)
-VALUES	('P0K_MASTERS_OF_METALLURGY_MOVEMENT',			'MODIFIER_PLAYER_UNIT_ADJUST_MOVEMENT',					0,			NULL),
-		('P0K_TRAIT_BUILDER_MOVEMENT_CAPITAL',			'MODIFIER_PLAYER_CITIES_ATTACH_MODIFIER',				0,			'P0K_GAUL_CITY_IS_CAPITAL_CONTINENT'),
-		('P0K_TRAIT_BUILDER_MOVEMENT_CAPITAL_MODIFIER',	'MODIFIER_SINGLE_CITY_GRANT_ABILITY_FOR_TRAINED_UNITS',	0,			'UNIT_IS_BUILDER'),
-		('P0K_TRAIT_BUILDER_CHARGES_CAPITAL',			'MODIFIER_PLAYER_CITIES_ATTACH_MODIFIER',				0,			'P0K_GAUL_CITY_IS_CAPITAL_CONTINENT'),
-		('P0K_TRAIT_BUILDER_CHARGES_CAPITAL_MODIFIER',	'MODIFIER_SINGLE_CITY_BUILDER_CHARGES',					1,			'UNIT_IS_BUILDER'),
-		('P0K_TRAIT_MINE_RESOURCE_CULTURE',				'MODIFIER_PLAYER_ADJUST_PLOT_YIELD',					0,			'P0K_GAUL_RESOURCE_REQUIREMENTS'),
-		('P0K_TRAIT_MINE_RESOURCE_PRODUCTION',			'MODIFIER_PLAYER_ADJUST_PLOT_YIELD',					0,			'P0K_GAUL_RESOURCE_REQUIREMENTS');
+		(ModifierId,									ModifierType,									SubjectRequirementSetId)
+VALUES	('P0K_TRAIT_GAUL_FREE_MINING',					'MODIFIER_PLAYER_GRANT_SPECIFIC_TECHNOLOGY',	NULL),
+		('P0K_TRAIT_MINE_RESOURCE_CULTURE',				'MODIFIER_PLAYER_ADJUST_PLOT_YIELD',			'P0K_GAUL_RESOURCE_REQUIREMENTS'),
+		('P0K_TRAIT_MINE_RESOURCE_PRODUCTION',			'MODIFIER_PLAYER_ADJUST_PLOT_YIELD',			'P0K_GAUL_RESOURCE_REQUIREMENTS');
 ---------------------------------------------------------------------------------------------------------------
 -- ModifierArguments
 ---------------------------------------------------------------------------------------------------------------
@@ -104,21 +83,11 @@ AND		ModifierId IN
 
 INSERT INTO ModifierArguments
 		(ModifierId,									Name,			Value)
-VALUES	('P0K_MASTERS_OF_METALLURGY_MOVEMENT',			'Amount',		1),
-		('P0K_TRAIT_BUILDER_MOVEMENT_CAPITAL',			'ModifierId',	'P0K_TRAIT_BUILDER_MOVEMENT_CAPITAL_MODIFIER'),
-		('P0K_TRAIT_BUILDER_MOVEMENT_CAPITAL_MODIFIER',	'AbilityType',	'P0K_ABILITY_MASTERS_OF_METALLURGY'),
-		('P0K_TRAIT_BUILDER_CHARGES_CAPITAL',			'ModifierId',	'P0K_TRAIT_BUILDER_CHARGES_CAPITAL_MODIFIER'),
-		('P0K_TRAIT_BUILDER_CHARGES_CAPITAL_MODIFIER',	'Amount',		1),
+VALUES	('P0K_TRAIT_GAUL_FREE_MINING',					'TechType',		'TECH_MINING'),
 		('P0K_TRAIT_MINE_RESOURCE_CULTURE',				'YieldType',	'YIELD_CULTURE'),
 		('P0K_TRAIT_MINE_RESOURCE_CULTURE',				'Amount',		1),
 		('P0K_TRAIT_MINE_RESOURCE_PRODUCTION',			'YieldType',	'YIELD_PRODUCTION'),
 		('P0K_TRAIT_MINE_RESOURCE_PRODUCTION',			'Amount',		1);
----------------------------------------------------------------------------------------------------------------
--- UnitAbilityModifiers
----------------------------------------------------------------------------------------------------------------
-INSERT INTO UnitAbilityModifiers
-		(UnitAbilityType,						ModifierId)
-VALUES	('P0K_ABILITY_MASTERS_OF_METALLURGY',	'P0K_MASTERS_OF_METALLURGY_MOVEMENT');
 ---------------------------------------------------------------------------------------------------------------
 -- TraitModifiers
 ---------------------------------------------------------------------------------------------------------------
@@ -130,10 +99,10 @@ AND ModifierId IN
 
 INSERT INTO TraitModifiers
 		(TraitType,					ModifierId)
-VALUES	('TRAIT_CIVILIZATION_GAUL',	'P0K_TRAIT_BUILDER_MOVEMENT_CAPITAL'),
-		('TRAIT_CIVILIZATION_GAUL',	'P0K_TRAIT_BUILDER_CHARGES_CAPITAL'),
+VALUES	('TRAIT_CIVILIZATION_GAUL',	'P0K_TRAIT_GAUL_FREE_MINING'),
 		('TRAIT_CIVILIZATION_GAUL',	'P0K_TRAIT_MINE_RESOURCE_CULTURE'),
-		('TRAIT_CIVILIZATION_GAUL',	'P0K_TRAIT_MINE_RESOURCE_PRODUCTION');
+		('TRAIT_CIVILIZATION_GAUL',	'P0K_TRAIT_MINE_RESOURCE_PRODUCTION'),
+		('TRAIT_CIVILIZATION_GAUL',	'TRAIT_ADJUST_BUILDER_CHARGES'); -- from China
 --=============================================================================================================
 -- LEADER UNIQUE ABILITY: GALLIC WARS (ENHANCEMENT)
 --=============================================================================================================

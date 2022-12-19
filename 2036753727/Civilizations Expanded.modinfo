@@ -4,7 +4,7 @@
     <Name>Civilizations Expanded</Name>
     <Description>Overhauls all civilization and leader abilities.</Description>
     <CustomProperties xmlns="http://schemas.microsoft.com/developer/msbuild/2003"></CustomProperties>
-    <Created>1629767716</Created>
+    <Created>1670084518</Created>
     <Teaser>Overhauls all civilization and leader abilities.</Teaser>
     <Authors>p0kiehl; Leugi; Lime; Sukritact; DarthStarkiller</Authors>
     <SpecialThanks>Amondin; Bunzato; ChimpanG; Chrisy15; Digihuman; DuskJockey; Enigma; Hunter; JanBoruta; JFD; Relic; SailorCat; SeelingCat; thecrazyscotsman; View619</SpecialThanks>
@@ -98,6 +98,12 @@
     <Criteria id="Portugal">
       <ModInUse>FFDF4E79-DEE2-47BB-919B-F5739106627A</ModInUse>
     </Criteria>
+    <Criteria id="JuliusCaesar">
+      <ModInUse>C236984F-C86C-48CF-A7B8-35AEB18931AD</ModInUse>
+    </Criteria>
+    <Criteria id="GreatNegotiators">
+      <ModInUse>7A66DB58-B354-4061-8C80-95B638DD6F6C</ModInUse>
+    </Criteria>
   </ActionCriteria>
   <FrontEndActions>
     <UpdateText id="Text">
@@ -109,6 +115,7 @@
       <File>Core/XP1/Localisation/CX_XP1_Localisation.sql</File>
       <File>Core/XP2/Localisation/CX_XP2_Localisation.sql</File>
       <File>Core/NFP/Localisation/CX_NFP_Localisation.sql</File>
+      <File>Core/LeaderPass/Localisation/LeaderPass_Text.sql</File>
     </UpdateText>
     <UpdateArt id="Art">
       <Properties>
@@ -350,6 +357,7 @@
       <File>Core/XP1/Localisation/CX_XP1_Localisation.sql</File>
       <File>Core/XP2/Localisation/CX_XP2_Localisation.sql</File>
       <File>Core/NFP/Localisation/CX_NFP_Localisation.sql</File>
+      <File>Core/LeaderPass/Localisation/LeaderPass_Text.sql</File>
     </UpdateText>
     <UpdateDatabase id="NFP_Portugal">
       <Properties>
@@ -357,6 +365,21 @@
       </Properties>
       <Criteria>Portugal</Criteria>
       <File>Core/NFP/CX_NFP_Portugal.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="LP_JuliusCaesar">
+      <Properties>
+        <LoadOrder>250</LoadOrder>
+      </Properties>
+      <Criteria>JuliusCaesar</Criteria>
+    </UpdateDatabase>
+    <UpdateDatabase id="LP_GreatNegotiators">
+      <Properties>
+        <LoadOrder>250</LoadOrder>
+      </Properties>
+      <Criteria>GreatNegotiators</Criteria>
+      <File>Core/LeaderPass/AbrahamLincoln.sql</File>
+      <File>Core/LeaderPass/NzingaMbande.sql</File>
+      <File>Core/LeaderPass/SultanSaladin.sql</File>
     </UpdateDatabase>
   </InGameActions>
   <Files>
@@ -420,6 +443,11 @@
     <File>Core/Global/CX_Global_Defines.sql</File>
     <File>Core/Global/CX_Global_Localisation.sql</File>
     <File>Core/Global/CX_Global_Policies.sql</File>
+    <File>Core/LeaderPass/AbrahamLincoln.sql</File>
+    <File>Core/LeaderPass/JuliusCaesar.sql</File>
+    <File>Core/LeaderPass/Localisation/LeaderPass_Text.sql</File>
+    <File>Core/LeaderPass/NzingaMbande.sql</File>
+    <File>Core/LeaderPass/SultanSaladin.sql</File>
     <File>Core/NFP/CX_NFP_Babylon.sql</File>
     <File>Core/NFP/CX_NFP_Byzantium.sql</File>
     <File>Core/NFP/CX_NFP_Ethiopia.sql</File>
