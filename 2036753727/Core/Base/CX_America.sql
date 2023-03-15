@@ -5,21 +5,14 @@
 -- CIVILIZATION UNIQUE ABILITY: MANIFEST DESTINY (ENHANCEMENT)
 --=============================================================================================================
 -- Tiles can be purchased for 50% less Gold.
--- The Capital and newly founded cities on America's home continent begin with a free Builder and military unit.
+-- +2 Amenities and +2 Housing to cities on the same continent as the Capital.	
 -- When outside American territory, all units receive +1 Sight and ignore the Movement costs of terrain and features.
 --=============================================================================================================
 -- Types
 ---------------------------------------------------------------------------------------------------------------
 INSERT INTO Types
-		(Type,																Kind)
-VALUES	('P0K_AMERICA_MODIFIER_PLAYER_CITIES_GRANT_UNIT_IN_CITY_BY_CLASS',	'KIND_MODIFIER'),
-		('P0K_AMERICA_ABILITY_MANIFEST_DESTINY',							'KIND_ABILITY');
----------------------------------------------------------------------------------------------------------------
--- DynamicModifiers
----------------------------------------------------------------------------------------------------------------
-INSERT INTO DynamicModifiers
-		(ModifierType,														CollectionType,						EffectType)
-VALUES	('P0K_AMERICA_MODIFIER_PLAYER_CITIES_GRANT_UNIT_IN_CITY_BY_CLASS',	'COLLECTION_PLAYER_BUILT_CITIES',	'EFFECT_GRANT_UNIT_BY_CLASS');	
+		(Type,										Kind)
+VALUES	('P0K_AMERICA_ABILITY_MANIFEST_DESTINY',	'KIND_ABILITY');
 ---------------------------------------------------------------------------------------------------------------
 -- TypeTags
 ---------------------------------------------------------------------------------------------------------------
@@ -37,49 +30,47 @@ VALUES	('P0K_AMERICA_ABILITY_MANIFEST_DESTINY',	'LOC_P0K_AMERICA_ABILITY_MANIFES
 ---------------------------------------------------------------------------------------------------------------
 INSERT INTO Requirements
 		(RequirementId,												RequirementType)
-VALUES	('P0K_AMERICA_REQUIRES_CITY_IS_OWNER_CAPITAL_CONTINENT',	'REQUIREMENT_CITY_IS_OWNER_CAPITAL_CONTINENT');	-- No argument necessary.
+VALUES	('P0K_AMERICA_REQUIRES_CITY_IS_OWNER_CAPITAL_CONTINENT',	'REQUIREMENT_CITY_IS_OWNER_CAPITAL_CONTINENT'),	-- No argument necessary.
+		('P0K_AMERICA_REQUIRES_PLOT_CAPITAL_CONTINENT',				'REQUIREMENT_PLOT_IS_OWNER_CAPITAL_CONTINENT'); -- No argument necessary.
 ---------------------------------------------------------------------------------------------------------------
 -- RequirementSets
 ---------------------------------------------------------------------------------------------------------------
 INSERT INTO RequirementSets
 		(RequirementSetId,							RequirementSetType)
-VALUES	('P0K_AMERICA_CITY_IS_CAPITAL_CONTINENT',	'REQUIREMENTSET_TEST_ALL');
+VALUES	('P0K_AMERICA_CITY_IS_CAPITAL_CONTINENT',	'REQUIREMENTSET_TEST_ALL'),
+		('P0K_AMERICA_PLOT_IS_CAPITAL_CONTINENT',	'REQUIREMENTSET_TEST_ALL');
 ---------------------------------------------------------------------------------------------------------------
 -- RequirementSetRequirements
 ---------------------------------------------------------------------------------------------------------------
 INSERT INTO RequirementSetRequirements
 		(RequirementSetId,							RequirementId)
-VALUES	('P0K_AMERICA_CITY_IS_CAPITAL_CONTINENT',	'P0K_AMERICA_REQUIRES_CITY_IS_OWNER_CAPITAL_CONTINENT');
+VALUES	('P0K_AMERICA_CITY_IS_CAPITAL_CONTINENT',	'P0K_AMERICA_REQUIRES_CITY_IS_OWNER_CAPITAL_CONTINENT'),
+		('P0K_AMERICA_PLOT_IS_CAPITAL_CONTINENT',	'P0K_AMERICA_REQUIRES_PLOT_CAPITAL_CONTINENT');		
 ---------------------------------------------------------------------------------------------------------------
 -- Modifiers
 ---------------------------------------------------------------------------------------------------------------
 INSERT INTO Modifiers
-		(ModifierId,									ModifierType,														SubjectRequirementSetId)
-VALUES	('P0K_MANIFEST_DESTINY_EXTRA_SIGHT',			'MODIFIER_PLAYER_UNIT_ADJUST_SIGHT',								'DIGGER_NON_DOMESTIC_PLOT_REQUIREMENTS'),
-		('P0K_MANIFEST_DESTINY_IGNORE_TERRAIN',			'MODIFIER_PLAYER_UNIT_ADJUST_IGNORE_TERRAIN_COST',					'DIGGER_NON_DOMESTIC_PLOT_REQUIREMENTS'),
-		('P0K_MANIFEST_DESTINY_IGNORE_RIVERS',			'MODIFIER_PLAYER_UNIT_ADJUST_IGNORE_RIVERS',						'DIGGER_NON_DOMESTIC_PLOT_REQUIREMENTS'),
-		('P0K_TRAIT_TILE_PURCHASE_DISCOUNT',			'MODIFIER_PLAYER_CITIES_ADJUST_PLOT_PURCHASE_COST',					NULL),
-		('P0K_TRAIT_HOME_CONTINENT_FREE_BUILDER',		'MODIFIER_PLAYER_BUILT_CITIES_GRANT_FREE_UNIT',						'P0K_AMERICA_CITY_IS_CAPITAL_CONTINENT'),
-		('P0K_TRAIT_HOME_CONTINENT_FREE_MELEE_UNIT',	'P0K_AMERICA_MODIFIER_PLAYER_CITIES_GRANT_UNIT_IN_CITY_BY_CLASS',	'P0K_AMERICA_CITY_IS_CAPITAL_CONTINENT'),
-	--	('P0K_TRAIT_CAPITAL_CONTINENT_AMENITIES',		'MODIFIER_PLAYER_CITIES_ADJUST_POLICY_AMENITY',						'P0K_AMERICA_CITY_IS_CAPITAL_CONTINENT'),
-	--	('P0K_TRAIT_CAPITAL_CONTINENT_HOUSING',			'MODIFIER_PLAYER_CITIES_ADJUST_POLICY_HOUSING',						'P0K_AMERICA_CITY_IS_CAPITAL_CONTINENT'),
-		('P0K_TRAIT_MANIFEST_DESTINY_ABILITY',			'MODIFIER_PLAYER_UNITS_GRANT_ABILITY',								NULL);
+		(ModifierId,								ModifierType,										SubjectRequirementSetId)
+VALUES	('P0K_MANIFEST_DESTINY_EXTRA_SIGHT',		'MODIFIER_PLAYER_UNIT_ADJUST_SIGHT',				'DIGGER_NON_DOMESTIC_PLOT_REQUIREMENTS'),
+		('P0K_MANIFEST_DESTINY_IGNORE_TERRAIN',		'MODIFIER_PLAYER_UNIT_ADJUST_IGNORE_TERRAIN_COST',	'DIGGER_NON_DOMESTIC_PLOT_REQUIREMENTS'),
+		('P0K_MANIFEST_DESTINY_IGNORE_RIVERS',		'MODIFIER_PLAYER_UNIT_ADJUST_IGNORE_RIVERS',		'DIGGER_NON_DOMESTIC_PLOT_REQUIREMENTS'),
+		('P0K_TRAIT_TILE_PURCHASE_DISCOUNT',		'MODIFIER_PLAYER_CITIES_ADJUST_PLOT_PURCHASE_COST',	NULL),
+		('P0K_TRAIT_CAPITAL_CONTINENT_AMENITIES',	'MODIFIER_PLAYER_CITIES_ADJUST_POLICY_AMENITY',		'P0K_AMERICA_CITY_IS_CAPITAL_CONTINENT'),
+		('P0K_TRAIT_CAPITAL_CONTINENT_HOUSING',		'MODIFIER_PLAYER_CITIES_ADJUST_POLICY_HOUSING',		'P0K_AMERICA_CITY_IS_CAPITAL_CONTINENT'),
+		('P0K_TRAIT_MANIFEST_DESTINY_ABILITY',		'MODIFIER_PLAYER_UNITS_GRANT_ABILITY',				NULL);
 ---------------------------------------------------------------------------------------------------------------
 -- ModifierArguments
 ---------------------------------------------------------------------------------------------------------------
 INSERT INTO ModifierArguments
-		(ModifierId,									Name,						Value)
-VALUES	('P0K_MANIFEST_DESTINY_EXTRA_SIGHT',			'Amount',					1),
-		('P0K_MANIFEST_DESTINY_IGNORE_TERRAIN',			'Ignore',					1),
-		('P0K_MANIFEST_DESTINY_IGNORE_TERRAIN',			'Type',						'ALL'),
-		('P0K_MANIFEST_DESTINY_IGNORE_RIVERS',			'Ignore',					1),
-		('P0K_TRAIT_TILE_PURCHASE_DISCOUNT',			'Amount',					-50),
-		('P0K_TRAIT_HOME_CONTINENT_FREE_BUILDER',		'UnitType',					'UNIT_BUILDER'),
-		('P0K_TRAIT_HOME_CONTINENT_FREE_BUILDER',		'Amount',					1),
-		('P0K_TRAIT_HOME_CONTINENT_FREE_MELEE_UNIT',	'UnitPromotionClassType',	'PROMOTION_CLASS_MELEE'),
-	--	('P0K_TRAIT_CAPITAL_CONTINENT_AMENITIES',		'Amount',					2),
-	--	('P0K_TRAIT_CAPITAL_CONTINENT_HOUSING',			'Amount',					2),
-		('P0K_TRAIT_MANIFEST_DESTINY_ABILITY',			'AbilityType',				'P0K_AMERICA_ABILITY_MANIFEST_DESTINY');
+		(ModifierId,								Name,			Value)
+VALUES	('P0K_MANIFEST_DESTINY_EXTRA_SIGHT',		'Amount',		1),
+		('P0K_MANIFEST_DESTINY_IGNORE_TERRAIN',		'Ignore',		1),
+		('P0K_MANIFEST_DESTINY_IGNORE_TERRAIN',		'Type',			'ALL'),
+		('P0K_MANIFEST_DESTINY_IGNORE_RIVERS',		'Ignore',		1),
+		('P0K_TRAIT_TILE_PURCHASE_DISCOUNT',		'Amount',		-50),
+		('P0K_TRAIT_CAPITAL_CONTINENT_AMENITIES',	'Amount',		2),
+		('P0K_TRAIT_CAPITAL_CONTINENT_HOUSING',		'Amount',		2),
+		('P0K_TRAIT_MANIFEST_DESTINY_ABILITY',		'AbilityType',	'P0K_AMERICA_ABILITY_MANIFEST_DESTINY');
 ---------------------------------------------------------------------------------------------------------------
 -- UnitAbilityModifiers
 ---------------------------------------------------------------------------------------------------------------
@@ -96,10 +87,8 @@ DELETE FROM TraitModifiers WHERE TraitType = 'TRAIT_CIVILIZATION_FOUNDING_FATHER
 INSERT INTO TraitModifiers
 		(TraitType,								ModifierId)
 VALUES	('TRAIT_CIVILIZATION_FOUNDING_FATHERS',	'P0K_TRAIT_TILE_PURCHASE_DISCOUNT'),
-		('TRAIT_CIVILIZATION_FOUNDING_FATHERS',	'P0K_TRAIT_HOME_CONTINENT_FREE_BUILDER'),
-		('TRAIT_CIVILIZATION_FOUNDING_FATHERS',	'P0K_TRAIT_HOME_CONTINENT_FREE_MELEE_UNIT'),
-	--	('TRAIT_CIVILIZATION_FOUNDING_FATHERS',	'P0K_TRAIT_CAPITAL_CONTINENT_AMENITIES'),
-	--	('TRAIT_CIVILIZATION_FOUNDING_FATHERS',	'P0K_TRAIT_CAPITAL_CONTINENT_HOUSING'),
+		('TRAIT_CIVILIZATION_FOUNDING_FATHERS',	'P0K_TRAIT_CAPITAL_CONTINENT_AMENITIES'),
+		('TRAIT_CIVILIZATION_FOUNDING_FATHERS',	'P0K_TRAIT_CAPITAL_CONTINENT_HOUSING'),
 		('TRAIT_CIVILIZATION_FOUNDING_FATHERS',	'P0K_TRAIT_MANIFEST_DESTINY_ABILITY');
 --=============================================================================================================
 -- LEADER UNIQUE ABILITY: Defined in TeddyRoosevelt folder.

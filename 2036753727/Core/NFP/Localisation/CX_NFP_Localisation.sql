@@ -72,7 +72,11 @@ VALUES
 		('LOC_TRAIT_CIVILIZATION_GAUL_NAME',
 		'Masters of Metallurgy'),
 		('LOC_TRAIT_CIVILIZATION_GAUL_DESCRIPTION',
-		'Begin the game with the Mining technology unlocked. +1 [ICON_Culture] Culture and +1 [ICON_Production] Production from Mined resources. Specialty districts receive a standard adjacency bonus from Mines. Building a Mine triggers a Culture Bomb, claiming adjacent unowned tiles. Builders receive +1 [ICON_Charges] Charge.'),		
+		'+1 [ICON_Culture] Culture and +1 [ICON_Production] Production from Mined resources. Specialty districts receive a standard adjacency bonus from Mines. Building a Mine triggers a Culture Bomb, claiming adjacent unowned tiles. Builders trained in cities on the same continent as the [ICON_Capital] Capital receive +1 [ICON_Charges] Charge and +1 [ICON_Movement] Movement.'),		
+		('LOC_P0K_ABILITY_MASTERS_OF_METALLURGY_NAME',
+		'Masters of Metallurgy'),
+		('LOC_P0K_ABILITY_MASTERS_OF_METALLURGY_DESCRIPTION',
+		'+1 [ICON_Charge] and +1 [ICON_Movement] Movement (Masters of Metallurgy).'),
 		-- Leader Unique Ability
 		('LOC_TRAIT_LEADER_AMBIORIX_NAME',
 		'Gallic Wars'),
@@ -282,7 +286,7 @@ VALUES
 --=============================================================================================================
 		-- Civilization Unique Ability
 		('LOC_TRAIT_CIVILIZATION_VIETNAM_DESCRIPTION',
-		'Land specialty districts can only be built on Woods, Rainforest, or Marsh. Constructing districts on these features does not remove them, and these features grant a minor adjacency bonus to all specialty districts. Buildings on these features provide bonus yields: +1 [ICON_CULTURE] Culture from Woods, +1 [ICON_SCIENCE] Science from Rainforest, and +1 [ICON_PRODUCTION] Production from Marsh. Woods can be planted after unlocking the Medieval Faires civic.'),
+		'Land specialty districts can only be built on Woods, Rainforest, or Marsh. Constructing districts on these features does not remove them, and these features grant a minor adjacency bonus to all specialty districts. Buildings on these Features provide bonus yields: +1 [ICON_CULTURE] Culture from Woods, +1 [ICON_SCIENCE] Science from Rainforest, and +1 [ICON_PRODUCTION] Production from Marsh. Woods can be planted after unlocking the Medieval Faires civic.'),
 		-- Science adjacency bonus
 		('LOC_P0K_VIETNAM_FOREST_SCIENCE',
 		'+{1_num} [ICON_Science] Science from the adjacent Woods tiles.'),
